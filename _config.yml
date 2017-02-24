@@ -4,7 +4,7 @@
 markdown: kramdown
 highlighter: rouge
 paginate: 5
-language: 'en-uk'
+language: 'es-es'
 
 # Website info
 name: 'Finding The Way Home'
