@@ -7,21 +7,21 @@ paginate: 5
 language: 'es-es'
 
 # Website info
-name: 'Finding The Way Home'
-description: "A beautiful narrative written with the world's most elegant publishing platform. The story begins here."
+name: 'Gerson Lázaro'
+description: "Blog Personal"
 
 # Author's info
-author: 'Casper McFadden'
+author: 'Gerson Lázaro'
 # edit 'categories' in the front matter of every post to match this username
-nickname: casper
-bio: 'A paranormal expert and his daughter bunk in an abandoned house populated by 3 mischievous ghosts and one friendly one.'
-location: 'Maine, USA'
-url: 'http://biomadeira.github.io/jasper/'
+nickname: gersonlazaro
+bio: 'Cuando quiero echar cuentos, lo hago en www.medium.com/@gersonlazaroc . Cuando me pongo serio, escribo aquí.'
+location: 'Cúcuta, Colombia'
+url: 'http://gersonlazaro.com'
 image: 'assets/images/casper.png'
 
-short_url: 'biomadeira.github.io/jasper/'
+short_url: 'gersonlazaro.com'
 google_analytics: UA-69281367-1
-disqus: username
+disqus: gersonlazaro
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 baseurl: /
 
