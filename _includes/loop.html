@@ -8,9 +8,7 @@
 <!-- This is the post loop - each post will be output using this markup -->
 {% for post in paginator.posts %}
 <article class="post">
-    <p>{{ site.baseurl }}</p>
-    <p>{{  post.cover}}</p>
-    <div class="post-bg" style="background-image:url({{post.cover}})">
+    <div class="post-bg" style="background-image:url({{ site.baseurl }}{{post.cover}})">
         <div class="post-bg-adjust"></div>
         <div class="post-adjust">
             <div class="post-data">
