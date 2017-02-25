@@ -24,8 +24,8 @@ class: 'post-template'
                     <h2 class="post-title">{{ page.title }}</h2>
                 </header>
                 <footer class="post-meta">
-                    {{ site.author }} | 
-                    <time class="post-date" datetime="{{ page.date | date:'%Y-%m-%d' }}">{{ page.date | date_to_string }}</time>
+                    Gerson Lázaro | 
+                    <time class="post-date" datetime="{{ page.date | date:'%Y-%m-%d' }}">{{ page.date | date_to_string }}</time> <br>
                     <div class="tags-content">
                         {% for tag in page.tags %}
                             <a href='{{ site.baseurl }}tag/{{ tag }}'>{{ tag | capitalize }}</a>
