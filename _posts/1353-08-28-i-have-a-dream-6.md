@@ -1,8 +1,8 @@
 ---
 layout: post
 cover: false
-title: I Have a Dream 7
-date:   1953-08-28 10:18:00
+title: I Have a Dream 6
+date:   1353-08-28 10:18:00
 tags: speeches
 subclass: 'post tag-speeches'
 categories: 'casper'
