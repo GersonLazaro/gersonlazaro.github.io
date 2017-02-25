@@ -14,10 +14,10 @@ description: "Blog Personal"
 author: 'Gerson Lázaro'
 # edit 'categories' in the front matter of every post to match this username
 nickname: gersonlazaro
-bio: 'Cuando quiero echar cuentos, lo hago en www.medium.com/@gersonlazaroc . Cuando me pongo serio, escribo aquí.'
+bio: 'Cuando quiero echar cuentos, lo hago en <a href='http://www.medium.com/@gersonlazaroc' target='_blank'>www.medium.com/@gersonlazaroc</a>. Cuando me pongo serio, escribo aquí.'
 location: 'Cúcuta, Colombia'
 url: 'http://gersonlazaro.com'
-image: 'assets/images/casper.png'
+image: 'assets/images/profile.png'
 
 short_url: 'gersonlazaro.com'
 google_analytics: UA-69281367-1
