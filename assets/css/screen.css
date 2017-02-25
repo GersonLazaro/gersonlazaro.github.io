@@ -987,6 +987,7 @@ body.nav-opened .nav {
     word-wrap: break-word;
 }
 
+
 .post-bg {
     background-color: #3498db;
     width: 100%;
@@ -1169,7 +1170,7 @@ body:not(.post-template) .post-title {
 /* Stop elements, such as img wider than the post content, from
    creating horizontal scroll - slight hack due to imperfections
    with browser width % calculations and rounding */
-.post-template .content {
+.post-template .content, .post-content-fix{
     overflow: hidden;
     overflow: hidden;
     width: 60%;
@@ -1784,7 +1785,7 @@ body:not(.post-template) .post-title {
         font-size: 1.8rem;
         line-height: 1.5em;
     }
-    .post-template .content {
+    .post-template .content, .post-content-fix {
         width:80%;
     }
     .post {
@@ -1915,7 +1916,7 @@ body:not(.post-template) .post-title {
     .no-cover.main-header {
         height: 30vh;
     }
-    .post-template .content {
+    .post-template .content, .post-content-fix {
         width: 90%;
     }
     .archive-template .main-header {
@@ -2220,3 +2221,4 @@ body:not(.post-template) .post-title {
    End of file. Animations should be the last thing here. Do not add stuff
    below this point, or it will probably fuck everything up.
    ========================================================================== */
+
