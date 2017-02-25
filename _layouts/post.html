@@ -24,7 +24,7 @@ class: 'post-template'
                     <h2 class="post-title">{{ page.title }}</h2>
                 </header>
                 <footer class="post-meta">
-                    {{ page.author }} | 
+                    {{ site.author }} | 
                     <time class="post-date" datetime="{{ page.date | date:'%Y-%m-%d' }}">{{ page.date | date_to_string }}</time>
                     <div class="tags-content">
                         {% for tag in page.tags %}
