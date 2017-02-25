@@ -35,6 +35,8 @@
 {% endfor %}
 
 <!-- Previous/next page links - displayed on every page -->
-{% if page.class == 'home-template' %} {% include post_pagination.html %} {% elsif page.class == 'page-template' %} {% include
-post_pagination.html %} {% elsif page.class == 'author-template' %} {% include author_pagination.html %} {% elsif page.class
-== 'tag-template' %} {% include tag_pagination.html %} {% else %} {% include post_pagination.html %} {% endif %}
+<div class="pagination-bg">
+    {% if page.class == 'home-template' %} {% include post_pagination.html %} {% elsif page.class == 'page-template' %} {% include
+    post_pagination.html %} {% elsif page.class == 'author-template' %} {% include author_pagination.html %} {% elsif page.class
+    == 'tag-template' %} {% include tag_pagination.html %} {% else %} {% include post_pagination.html %} {% endif %}
+</div>
