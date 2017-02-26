@@ -2,7 +2,6 @@
 layout: page
 title:
 permalink: tag/web/
-cover: 'assets/images/tag-web-cover.jpg'
 ---
 
 <header class="main-header tag-head" style="background-image: url({{site.baseurl}}assets/images/tag-web-cover.jpg)">
