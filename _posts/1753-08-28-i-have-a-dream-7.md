@@ -5,7 +5,7 @@ title: I Have a Dream 7
 date:   1753-08-28 10:18:00
 tags: speeches
 subclass: 'post tag-speeches'
-categories: 'tutorial'
+categories: 'web'
 navigation: True
 logo: 'assets/images/ghost.png'
 cover: 'assets/images/cover4.jpg'
