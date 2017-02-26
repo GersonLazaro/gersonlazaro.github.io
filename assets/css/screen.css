@@ -1516,7 +1516,7 @@ body:not(.post-template) .post-title {
 }
 .category-tag {
     text-align: center;
-    min-height: 63vh;
+    min-height: 59vh;
 }
 .category-tag ul li{
    list-style-type: none; 
@@ -1737,6 +1737,8 @@ body:not(.post-template) .post-title {
     line-height: 1.75em;
     color: #BBC7CC;
     background-color: #2c3e50;
+    height: 6vh;
+    box-sizing: border-box;
 }
 
 .site-footer a {
