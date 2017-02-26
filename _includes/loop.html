@@ -19,7 +19,7 @@
                     <p>{{ post.content | strip_html | truncatewords: 26 }}<a class="read-more" href=="{{ site.baseurl }}{{ post.url | remove: '/' }}">...</a></p>
                 </section>
                 <footer class="post-meta">
-                    <a href='{{ site.baseurl }}author/{{ site.nickname }}'>{{ site.author }}</a>
+                    <a href='{{ site.baseurl }}about'>{{ site.author }}</a>
                     <time class="post-date" datetime="{{ post.date | date:'%Y-%m-%d' }}">{{ post.date | date_to_string }}</time>
                     <br><br>
                     {% if post.categories.size > 0 %} {% for tag in post.categories %} 
