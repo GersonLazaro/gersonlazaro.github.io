@@ -21,12 +21,4 @@ cover: 'assets/images/tag-web-cover.jpg'
     </div>
 </header>
 
-  <ul>
-  {% for entry in site.categories.web reversed %}
-    <article class="tutorial">
-      <p>{{site.baseurl}}</p>
-      <p>{{entry.url}}</p>
-      <li><a href="../..{{ entry.url }}">{{ entry.title }}</a></li>
-    </article>
-  {% endfor %}
-  </ul>
+
