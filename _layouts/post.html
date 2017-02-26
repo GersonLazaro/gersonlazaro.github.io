@@ -28,7 +28,7 @@ class: 'post-template'
                     <time class="post-date" datetime="{{ page.date | date:'%Y-%m-%d' }}">{{ page.date | date_to_string }}</time> 
                     <div class="tags-content">
                         <br><br>
-                        {% for tag in page.tags %}
+                        {% for tag in page.categories %}
                             <a href='{{ site.baseurl }}tag/{{ tag }}'>{{ tag | capitalize }}</a>
                         {% endfor %}
                     </div>
