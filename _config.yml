@@ -20,7 +20,7 @@ url: 'http://gersonlazaro.com'
 image: 'assets/images/profile.png'
 
 short_url: 'gersonlazaro.com'
-google_analytics: UA-69281367-1
+google_analytics: UA-55476501-1
 disqus: gersonlazaro
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 baseurl: /
