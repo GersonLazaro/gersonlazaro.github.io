@@ -1523,13 +1523,14 @@ body:not(.post-template) .post-title {
 }
 .category-tag ul li a {
     display: inline-block;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
     color: #666;
+    text-decoration: none;
     transition: all .3s ease;
 }
 .category-tag ul li a:hover {
     color: #000;
+    text-decoration: underline;
 }
 /* Special styles for posts with no cover images */
 .read-next-story.no-cover {
