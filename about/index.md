@@ -1,9 +1,9 @@
 ---
 layout: page
-title: About
+title: Gerson Lázaro
+cover: 'assets/images/cover1.jpg'
 class: 'post'
 navigation: True
-logo: 'assets/images/ghost.png'
 current: about
 ---
 
