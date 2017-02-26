@@ -12,6 +12,7 @@ navigation: true
         style="height: 30vh;background-image: url({{ site.baseurl }}{{ page.cover }}) {% else %}no-cover{% endif %}">
         <div class="post-bg-adjust"></div>
     <nav class="main-nav overlay clearfix">
+        <a class="home-button icon-arrow-left" href="{{ site.baseurl }}" ><span class="word">Inicio</span></a>
         {% if page.navigation %}
             <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
         {% endif %}
