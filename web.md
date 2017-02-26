@@ -26,45 +26,21 @@ navigation: true
 </header>
 
 <main id="content" class="content" role="main">
-      <div class="extra-pagination inner">
-          {% if page.class == 'home-template' %} {% include post_pagination.html %} {% elsif page.class == 'page-template' %} {% include
-          post_pagination.html %} {% elsif page.class == 'author-template' %} {% include author_pagination.html %} {% elsif page.class
-          == 'tag-template' %} {% include tag_pagination.html %} {% else %} {% include post_pagination.html %} {% endif %}
-      </div>
 
       <!-- This is the post loop - each post will be output using this markup -->
       {% for post in site.categories.web reversed %}
       <article class="post">
-          <div class="post-bg" style="background-image:url({{ site.baseurl }}{{post.cover}})">
+          <div class="post-bg" style="background-color:{{% cycle 'red', 'green', 'blue' %}}">
               <div class="post-bg-adjust"></div>
               <div class="post-adjust">
                   <div class="post-data">
                       <header class="post-header">
                           <h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url | remove: '/' }}">{{ post.title }}</a></h2>
                       </header>
-                      <section class="post-excerpt">
-                          <p>{{ post.content | strip_html | truncatewords: 26 }}<a class="read-more" href=="{{ site.baseurl }}{{ post.url | remove: '/' }}">...</a></p>
-                      </section>
-                      <footer class="post-meta">
-                          <a href='{{ site.baseurl }}author/{{ site.nickname }}'>{{ site.author }}</a>
-                          <time class="post-date" datetime="{{ post.date | date:'%Y-%m-%d' }}">{{ post.date | date_to_string }}</time>
-                          <br><br>
-                          {% if post.categories.size > 0 %} {% for tag in post.categories %} 
-                          <a href='{{ site.baseurl }}tag/{{ tag }}'>{{ tag | capitalize }}</a> 
-                          {% endfor %} {% endif %}
-
-                      </footer>
                   </div>
               </div>
           </div>
       </article>
 
       {% endfor %}
-
-      <!-- Previous/next page links - displayed on every page -->
-      <div class="pagination-bg">
-          {% if page.class == 'home-template' %} {% include post_pagination.html %} {% elsif page.class == 'page-template' %} {% include
-          post_pagination.html %} {% elsif page.class == 'author-template' %} {% include author_pagination.html %} {% elsif page.class
-          == 'tag-template' %} {% include tag_pagination.html %} {% else %} {% include post_pagination.html %} {% endif %}
-      </div>
 </main>
