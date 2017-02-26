@@ -9,7 +9,7 @@ navigation: true
 ---
 
 <header class="main-header {% if page.cover %}"
-        style="background-image: url({{ site.baseurl }}{{ page.cover }}) {% else %}no-cover{% endif %}">
+        style="height: 30vh;background-image: url({{ site.baseurl }}{{ page.cover }}) {% else %}no-cover{% endif %}">
         <div class="post-bg-adjust"></div>
     <nav class="main-nav overlay clearfix">
         {% if page.navigation %}
@@ -22,7 +22,6 @@ navigation: true
             <h2 class="page-description">{{ page.description }}</h2>
         </div>
     </div>
-    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
 </header>
 
 <main id="content" class="content" role="main">
