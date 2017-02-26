@@ -5,7 +5,7 @@ title: I Have a Dream 6
 date:   1353-08-28 10:18:00
 tags: speeches
 subclass: 'post tag-speeches'
-categories: 'tech'
+categories: 'web'
 navigation: True
 logo: 'assets/images/ghost.png'
 cover: 'assets/images/cover4.jpg'
