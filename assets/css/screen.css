@@ -1516,7 +1516,7 @@ body:not(.post-template) .post-title {
 }
 .category-tag {
     text-align: center;
-    min-height: 73vh;
+    min-height: 63vh;
 }
 .category-tag ul li{
    list-style-type: none; 
