@@ -30,7 +30,7 @@ navigation: true
       <!-- This is the post loop - each post will be output using this markup -->
       {% for post in site.categories.web reversed %}
       <article class="post">
-          <div class="post-bg" style="background-color:{{% cycle 'red', 'green', 'blue' %}}">
+          <div class="post-bg" style="background-color:{% cycle 'red', 'green', 'blue' %}">
               <div class="post-bg-adjust"></div>
               <div class="post-adjust">
                   <div class="post-data">
