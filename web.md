@@ -26,21 +26,11 @@ navigation: true
 </header>
 
 <main id="content" class="content" role="main">
-
-      <!-- This is the post loop - each post will be output using this markup -->
-      {% for post in site.categories.web reversed %}
-      <article class="post">
-          <div class="post-bg" style="background-color:{% cycle 'red', 'green', 'blue' %}">
-              <div class="post-bg-adjust"></div>
-              <div class="post-adjust">
-                  <div class="post-data">
-                      <header class="post-header">
-                          <h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url | remove: '/' }}">{{ post.title }}</a></h2>
-                      </header>
-                  </div>
-              </div>
-          </div>
-      </article>
-
-      {% endfor %}
+      <ul>
+        {% for entry in site.categories.web reversed %}
+            <article class="tutorial">
+            <li><a href="{{ site.baseurl }}{{ post.url | remove: '/' }}">{{ entry.title }}</a></li>
+            </article>
+        {% endfor %}
+      </ul>
 </main>
