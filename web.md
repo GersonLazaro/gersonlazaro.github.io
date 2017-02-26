@@ -24,3 +24,15 @@ navigation: true
     </div>
     <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
 </header>
+
+<main id="content" class="content" role="main">
+      <ul>
+        {% for entry in site.categories.web reversed %}
+          <article class="tutorial">
+            <p>{{site.baseurl}}</p>
+            <p>{{entry.url}}</p>
+            <li><a href="../..{{ entry.url }}">{{ entry.title }}</a></li>
+          </article>
+        {% endfor %}
+      </ul>
+</main>
