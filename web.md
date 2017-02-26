@@ -7,7 +7,7 @@ permalink: tag/web/
 <div class="tutorials">
   <h1>Web</h1>
   <ul>
-  {% for entry in site.categories.tutorial reversed %}
+  {% for entry in site.categories.web reversed %}
     <article class="tutorial">
       <p>{{site.baseurl}}</p>
       <p>{{entry.url}}</p>
