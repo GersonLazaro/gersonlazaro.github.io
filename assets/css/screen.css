@@ -1514,7 +1514,22 @@ body:not(.post-template) .post-title {
     margin: 0;
     color: rgba(255,255,255,0.8);
 }
-
+.category-tag {
+    text-align: center;
+}
+.category-tag ul li{
+   list-style-type: none; 
+}
+.category-tag ul li a {
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #666;
+    transition: all .3s ease;
+}
+.category-tag ul li a:hover {
+    color: #000;
+}
 /* Special styles for posts with no cover images */
 .read-next-story.no-cover {
     background: #f5f8fa;

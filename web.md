@@ -24,7 +24,7 @@ navigation: true
     </div>
 </header>
 
-<main id="content" class="content" role="main">
+<main id="content" class="content category-tag" role="main">
       <ul>
         {% for entry in site.categories.web reversed %}
             <article class="tutorial">
