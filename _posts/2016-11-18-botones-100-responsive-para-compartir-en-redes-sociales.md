@@ -16,7 +16,7 @@ Para evitar estos problemas, existen múltiples herramientas que ofrecen varieda
 
 Cuenta con botones predefinidos para las principales redes sociales y aplicaciones, entre las que se incluyen facebook, twitter, youtube, instagram, Linkedin, Google Plus  ~~¿Google Plus todavía existe?~~, entre otras. 
  
-#####Instalación
+##### Instalación
 
 1. Descarga la última versión de la librería <a href="https://github.com/kni-labs/rrssb/releases" target="_blank">aqui</a>.
 2. Importa el archivo css: 
