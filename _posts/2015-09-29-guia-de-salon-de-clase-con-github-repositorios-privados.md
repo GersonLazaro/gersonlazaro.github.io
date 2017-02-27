@@ -1,6 +1,6 @@
 ---
 layout: post
-cover: 'content/images/2015/09/github_educacion_.jpg'
+cover: 'content/images/2015/09/github_educacion_7.jpg'
 title: 'Guía de salón de clase con Github: Repositorios Privados (VI)'
 date:   2015-09-29 06:11:00
 categories: tech web
