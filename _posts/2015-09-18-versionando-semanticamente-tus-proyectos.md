@@ -25,7 +25,7 @@ Dado un número de versión MAYOR.MENOR.REVISIÓN, incrementar:
 
 Etiquetas adicionales para pre-lanzamiento y metadatos de la versión están disponibles como extensiones al formato MAYOR.MENOR.REVISIÓN.
 
-##### #Introducción
+##### Introducción
 En el mundo de la gestión de software existe el temor de caer en algún momento en el llamado “infierno de las dependencias”. Mientras más crece tu sistema y mientras más paquetes integras en tu software, más probable es que te encuentres, un día, en este pozo de la desesperación.
 
 En sistemas con muchas dependencias, publicar nuevas versiones de un paquete puede transformarse rápidamente en una pesadilla. Si las especificaciones de dependencia son muy estrictas está el peligro del bloqueo de versiones (la imposibilidad de actualizar un paquete sin tener que actualizar todos los que dependen de este). Si las dependencias se especifican de manera muy amplia, inevitablemente caerás en promiscuidad de versiones (asumir más compatibilidad de lo razonable con versiones futuras). El infierno de las dependencias es donde te encuentras cuando el bloqueo de versiones o la promiscuidad de versiones te impiden avanzar en tu proyecto de manera fácil y segura.
