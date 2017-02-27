@@ -1,6 +1,6 @@
 ---
 layout: post
-cover: 'content/images/2015/12/material-buttons.png'
+cover: 'content/images/2016/01/indiahacks-2016.png'
 title: 'IndiaHacks 2016: La reunión [online] de desarrolladores más grande del mundo'
 date:   2016-01-02 06:12:00
 categories: tech web programacion hacker
