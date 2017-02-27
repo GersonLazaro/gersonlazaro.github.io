@@ -3,7 +3,7 @@ layout: post
 cover: 'content/images/2015/06/imagenes-gratis.jpg'
 title: Imágenes gratis y libres para uso personal y/o profesional
 date:   2015-01-06 06:06:00
-categories: 'tech'
+categories: tech
 navigation: True
 ---
 
