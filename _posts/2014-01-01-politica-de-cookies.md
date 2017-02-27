@@ -20,10 +20,10 @@ Cookie es un fichero que se descarga en su ordenador al acceder a determinadas p
 
 Puede usted permitir, bloquear o eliminar las cookies instaladas en su equipo mediante la configuración de las opciones del navegador instalado en su ordenador:
 
-<a href="https://support.google.com/chrome/answer/95647?hl=es" target="_blank">Google Chrome</a>
-<a href="http://windows.microsoft.com/es-es/windows7/how-to-manage-cookies-in-internet-explorer-9" target="_blank">Internet Explorer</a>
-<a href="https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-que-los-sitios-we" target="_blank">Mozilla Firefox</a>
-<a href="https://support.apple.com/kb/ph5042?locale=es_ES" target="_blank">Safari</a>
+* <a href="https://support.google.com/chrome/answer/95647?hl=es" target="_blank">Google Chrome</a>
+* <a href="http://windows.microsoft.com/es-es/windows7/how-to-manage-cookies-in-internet-explorer-9" target="_blank">Internet Explorer</a>
+* <a href="https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-que-los-sitios-we" target="_blank">Mozilla Firefox</a>
+* <a href="https://support.apple.com/kb/ph5042?locale=es_ES" target="_blank">Safari</a>
 
 ### Nuestra Promesa
 Las cookies utilizadas en este sitio, tanto propias como de terceros estan solo para mejorar tu experiencia de usuario en el sitio. En ningún caso almacenaremos información personal confidencial, y las cookies nunca se utilizarán con fines de spam, venta a terceros, labores delictivas, espionaje, ni acciones similares (de hecho, no hay manera de hacer esto con cookies, pero no está de mas aclarar).
