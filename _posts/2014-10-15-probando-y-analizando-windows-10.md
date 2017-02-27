@@ -14,9 +14,9 @@ navigation: True
 
 Luego del polémico (muy polémico) Windows 8, Microsoft ha decidido volver a lo que tan bien funcionaba en Windows 7, mezclándolo por supuesto con los “tiles” ~~del demonio~~ característicos de 8 u 8.1. El resultado, al menos en mi opinión, va por buen camino.
 
-###Lanzamiento y descarga
+### Lanzamiento y descarga
 El nuevo Windows 10 fue anunciado el 30 de septiembre, como un sistema unificado para ordenadores, tabletas y teléfonos inteligentes. Inmediatamente se puso a disposición del público la versión de desarrollo actual del sistema, que puede descargarse en http://windows.microsoft.com/es-es/windows/preview. Es importante entender que es una versión previa, con muchos errores, y la cual puede cambiar totalmente antes de la versión definitiva a lanzarse el próximo año. Esta versión se libera para pruebas y testing, no para usuarios finales. 
-###Instalación
+### Instalación
 El proceso de instalación es el mismo de Windows Vista ~~si, alguna vez existió un malvado SO llamado Vista~~,7, 8 y 8.1 . Un proceso muy intuitivo, indicar algunas configuraciones, y dejar que el instalador trabaje.
 
 ![Instalación de windows 10](/content/images/2015/06/instalacion-windows-10-1.png)
@@ -27,12 +27,12 @@ El proceso de instalación es el mismo de Windows Vista ~~si, alguna vez existi�
 Las cuentas de usuario se sincronizan directamente con tu cuenta Microsoft...aunque en este caso no ocurre así dado que mientras hacia la prueba no tenía internet por culpa de cierto proveedor...
 
 
-###Primer vistazo
+### Primer vistazo
 Primer vistazo una vez instalado:
 ![Primer vistazo de windows 10](/content/images/2015/06/windows-10-inicial.png)
 
 
-###Menú Inicio
+### Menú Inicio
 Y el tan esperado Menú de inicio:
 ![Primer vistazo de windows 10](/content/images/2015/06/windows-10-menu-inicio.png)
 Un poco feo en ese color, pero puede mejorarse.
@@ -47,23 +47,23 @@ Si aun con el regreso del menú inicio, sigues prefiriendo el inicio modern UI d
 ![Primer vistazo de windows 10](/content/images/2015/06/windows-10-modern-ui.png)
 
 
-###Gestor de archivos
+### Gestor de archivos
 El gestor de archivos no cambia mucho en cuanto al Windows 8, pero los bordes de las ventanas si han sido eliminados totalmente:
 ![Primer vistazo de windows 10](/content/images/2015/06/windows-10-explorador.png)
 
 
-###Aplicaciones metro
+### Aplicaciones metro
 Las aplicaciones Metro ahora funcionan como aplicaciones comunes, que pueden ser minimizadas, maximizadas y cerradas sin problema.
 ![Primer vistazo de windows 10](/content/images/2015/06/windows-10-metro.png)
 Las aplicaciones Metro incorporan también un botón más en la barra de título junto al icono en la esquina superior izquierda que agrega más opciones a la aplicación:
 ![Primer vistazo de windows 10](/content/images/2015/06/windows-10-metro-2.png)
 
-###Búsqueda
+### Búsqueda
 La búsqueda ahora no está anclada al menú inicio como lo fuera en Windows 7 ni al Charm bar como en Windows 8, sino tiene su propio icono junto al inicio (y un diseño por mejorar)
 
 ![Primer vistazo de windows 10](/content/images/2015/06/windows-10-busqueda.png)
 
-###Multiescritorio
+### Multiescritorio
 Una de las novedades más esperadas ha sido la posibilidad de utilizar varios escritorios virtuales al mismo tiempo, cosa que distintas distribuciones Linux implementaron hace mucho tiempo. Se activa con un botón en la barra inferior que muestra las aplicaciones abiertas en determinado escritorio, junto a los demás escritorios abiertos. Esto aún es muy beta, debe mejorar mucho, no funciona el arrastre de aplicaciones y se rompe en algunos momentos, pero es un gran avance.
 ![Primer vistazo de windows 10](/content/images/2015/06/windows-10-multiescritorio.png)
 ![Primer vistazo de windows 10](/content/images/2015/06/windows-10-varios-escritorios.png)
@@ -72,14 +72,14 @@ Además, el sistema se está tomando en serio el tema de ser productivo. Al redi
 ![Primer vistazo de windows 10](/content/images/2015/06/windows-10-productividad.png)
 
 
-###Privacidad y feedback
+### Privacidad y feedback
 Se ha creado bastante escandalo innecesario por algunos detalles encontrados en la licencia de usuario de este sistema. Se dice que atenta contra la privacidad porque obtiene gran cantidad de datos del usuario, incluyendo lo que escribe y lo que hace. Sin embargo, hay que tener en cuenta que esta versión es justo para eso, para tomar el máximo feedback posible del usuario y mejorar en torno a eso. Preocupante seria si esos detalles se mantienen en la versión final, pero no en una de desarrollo. Ademas como se dijo anteriormente, este sistema está hecho para testear, no para usuario final, así que no tendría sentido manejar información confidencial que pueda ser rastreada desde el.
 Si ademas quieres enviar tu propio feedback a Windows con lo que piensas del nuevo sistema, han integrado una aplicación solo para esto:
 
 ![Primer vistazo de windows 10](/content/images/2015/06/windows-10-feedback.png)
 
 
-###Conclusiones
+### Conclusiones
 No soy un usuario apegado a un sistema operativo. Uso regularmente como sistema principal Ubuntu Gnome 14.04 (recomendado por cierto), aunque mantengo Windows en mi equipo. Actualmente Windows 8.1, a pesar de mi mundo de críticas a él. Creo que Windows 10 endereza ese camino tan pedregoso que dejó Windows 8, cuando se les ocurrió cambiar todo sin razón alguna y dejar al usuario perdido en muchas de las cosas más generales. Ademas de corregir una de las mayores falencias: la falta de integración; 8 y 8.1 parecían dos sistemas totalmente distintos, el de escritorio y el de metro, encajados bruscamente en un solo paquete. Ahora, por fin metro consiguió su espacio como debió haber sido desde un inicio.
 
 
