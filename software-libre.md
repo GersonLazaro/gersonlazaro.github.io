@@ -29,7 +29,7 @@ navigation: true
       <ul>
         {% for entry in site.categories.openSource reversed %}
             <article class="tutorial">
-            <li><a href="{{ site.baseurl }}{{ post.url | remove: '/' }}">{{ entry.title }}</a></li>
+            <li><a href="{{ site.baseurl }}{{ entry.url | remove: '/' }}">{{ entry.title }}</a></li>
             </article>
         {% endfor %}
       </ul>
