@@ -2,7 +2,7 @@
 layout: post
 cover: 'content/images/2016/12/certificado-ssl-gratuito.jpg'
 title: 'Certificados SSL completamente gratuitos'
-date:   2016-07-21 06:12:00
+date:   2016-12-28 06:12:00
 categories: tech web seguridad
 navigation: True
 ---
