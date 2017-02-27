@@ -27,7 +27,7 @@ navigation: true
 
 <main id="content" class="content category-tag" role="main">
       <ul>
-        {% for entry in site.categories.facebook reversed %}
+        {% for entry in site.categories.facebook %}
             <article class="tutorial">
             <li><a href="{{ site.baseurl }}{{ entry.url | remove: '/' }}">{{ entry.title }}</a></li>
             </article>
