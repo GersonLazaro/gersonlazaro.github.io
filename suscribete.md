@@ -4,8 +4,7 @@ title: Suscríbete
 cover: 'assets/images/cover1.jpg'
 class: 'post'
 navigation: True
-current: suscribete
-permalink: suscribete
+permalink: suscribete/
 ---
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
