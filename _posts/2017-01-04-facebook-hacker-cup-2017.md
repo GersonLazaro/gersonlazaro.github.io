@@ -6,6 +6,7 @@ date:   2017-01-04 06:12:00
 categories: programacion hacker facebook
 navigation: True
 ---
+
 ###### ¿Que es Hacker Cup?
 > Facebook Hacker Cup es una competencia Internacional de Programación, abierta a personas de cualquier edad y nacionalidad que se lleva a cabo anualmente desde 2011. La competencia consta de un set de problemas algorítmicos que pueden ser resueltos en cualquier lenguaje de programación y cualquier entorno. 
 
