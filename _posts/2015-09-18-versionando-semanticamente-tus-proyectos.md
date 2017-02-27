@@ -45,11 +45,11 @@ Yo llamo a este sistema “Versionamiento Semántico”. Bajo este esquema, los 
 
 5. La versión 1.0.0 define el API pública. La forma en que el número de versión es incrementado después de este release depende de esta API pública y de cómo esta cambia.
 
-6. La versión revisión Z (x.y.Z | x > 0) DEBE incrementarse cuando se introducen solo arreglos compatibles con la versión anterior. Un arreglo de bug se define como un cambio interno que corrige un comportamiento erróneo.
+6. La versión revisión Z (x.y.Z - x > 0) DEBE incrementarse cuando se introducen solo arreglos compatibles con la versión anterior. Un arreglo de bug se define como un cambio interno que corrige un comportamiento erróneo.
 
-7. La versión menor Y (x.Y.z | x > 0) DEBE ser incrementada si se introduce nueva funcionalidad compatible con la versión anterior. Se DEBE incrementar si cualquier funcionalidad de la API es marcada como obsoleta. PUEDE ser incrementada si se agrega funcionalidad o arreglos considerables al código privado. Puede incluir cambios de nivel de revisión. La versión de revisión DEBE ser reiniciada a 0 cuando la versión menor es incrementada.
+7. La versión menor Y (x.Y.z - x > 0) DEBE ser incrementada si se introduce nueva funcionalidad compatible con la versión anterior. Se DEBE incrementar si cualquier funcionalidad de la API es marcada como obsoleta. PUEDE ser incrementada si se agrega funcionalidad o arreglos considerables al código privado. Puede incluir cambios de nivel de revisión. La versión de revisión DEBE ser reiniciada a 0 cuando la versión menor es incrementada.
 
-8. La versión mayor X (X.y.z | X > 0) DEBE ser incrementada si cualquier cambio no compatible con la versión anterior es introducida a la API pública. PUEDE incluir cambios de niver menor y/o revisión. Las versiones revisión y menor DEBEN ser reiniciadas a 0 cuando se incrementa la versión mayor.
+8. La versión mayor X (X.y.z - X > 0) DEBE ser incrementada si cualquier cambio no compatible con la versión anterior es introducida a la API pública. PUEDE incluir cambios de niver menor y/o revisión. Las versiones revisión y menor DEBEN ser reiniciadas a 0 cuando se incrementa la versión mayor.
 
 9. Una versión pre-lanzamiento PUEDE ser representada añadiendo un guión y una serie de identificadores separados por puntos inmediatamente después de la versión de revisión. Los identificadores DEBEN consistir solo de caracteres ASCII alfanuméricos y el guión [0-9A-Za-z-]. Los identificadores NO PUEDEN ser vacios. Los identificadores numéricos NO DEBEN incluir ceros a la izquierda. Las versiones Pre-lanzamiento tienen una menor precedencia que la versión normal asociada. Ejemplos: 1.0.0-alpha, 1.0.0-alpha.1, 1.0.0-0.3.7, 1.0.0-x.7.z.92.
 
