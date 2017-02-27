@@ -2,7 +2,7 @@
 layout: post
 cover: 'content/images/2015/06/crear-diapositivas-web.jpg'
 title: ¿Sabes HTML? Dale a tus presentaciones un cambio radical
-date:   2015-01-06 06:06:00
+date:   2015-01-25 06:06:00
 categories: tech web
 navigation: True
 ---

@@ -2,7 +2,7 @@
 layout: post
 cover: 'content/images/2015/06/Crear-paleta-de-colores.jpg'
 title: ¿Como elegir los colores de mi aplicación o sitio web?
-date:   2015-01-06 06:06:00
+date:   2015-02-22 06:06:00
 categories: tech web
 navigation: True
 ---

@@ -2,7 +2,7 @@
 layout: post
 cover: 'content/images/2015/06/herramientas-gratis-para-developers.jpg'
 title: Las mejores herramientas para desarrolladores, gratis para estudiantes
-date:   2015-01-06 06:06:00
+date:   2015-03-29 06:06:00
 categories: tech web programacion
 navigation: True
 ---
