@@ -10,29 +10,29 @@
     <meta name="twitter:title" content="{{ page.title }} - Gerson Lázaro">
     <meta property="og:title" content="{{ page.title }} - Gerson Lázaro" />
     {% else %}
-    <meta name="twitter:title" content="{{ site.title }}">
+    <meta name="twitter:title" content="{{ site.name }}">
     <meta property="og:title" content="{{ site.name }}" />
     {% endif %}
     {% if page.url %}
-    <meta name="twitter:url" content="{{ site.baseurl }}{{ page.url }}">
-    <meta property="og:url" content="{{ site.baseurl }}" />
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:url" content="{{ site.url }}" />
     {% else %}
-    <meta name="twitter:url" content="{{ site.baseurl }}">
-    <meta property="og:url" content="{{ site.baseurl }}" />
+    <meta name="twitter:url" content="{{ site.url }}">
+    <meta property="og:url" content="{{ site.url }}" />
     {% endif %}
     {% if page.excerpt %}
-        <meta property="og:description" content="{{ page.excerpt }}" />
-    <meta name="twitter:description" content="{{ page.excerpt }}">
+        <meta property="og:description" content="{{ page.excerpt | xml_escape }}" />
+    <meta name="twitter:description" content="{{ page.excerpt | xml_escape }}">
     {% else %}
     <meta name="twitter:description" content="{{ site.description }}">
     <meta property="og:description" content="{{ site.description }}" />
     {% endif %}
     {% if page.cover %}
-    <meta name="twitter:image:src" content="{{ site.baseurl }}{{page.cover}}">
-    <meta property="og:image" content="{{ site.baseurl }}{{page.cover}}" />
+    <meta name="twitter:image:src" content="{{ site.url }}{{page.cover}}">
+    <meta property="og:image" content="{{ site.url }}{{page.cover}}" />
     {% else %}
-    <meta name="twitter:image:src" content="{{ site.baseurl }}assets/images/cover1.jpg">
-    <meta property="og:image" content="{{ site.baseurl }}assets/images/cover1.jpg" />
+    <meta name="twitter:image:src" content="{{ site.url }}assets/images/cover1.jpg">
+    <meta property="og:image" content="{{ site.url }}assets/images/cover1.jpg" />
     {% endif %}
 
 
@@ -42,17 +42,17 @@
     "@type": "Website",
     "publisher": "Gerson Lázaro",
     {% if page.url %}
-        "url": "{{ site.baseurl }}{{ page.url }}",
+        "url": "{{ site.url }}{{ page.url }}",
     {% else %}
-        "url": "{{ site.baseurl }}",
+        "url": "{{ site.url }}",
     {% endif %} 
     {% if page.cover %}
-        "image": "{{ site.baseurl }}{{page.cover}}",
+        "image": "{{ site.url }}{{page.cover}}",
     {% else %}
-        "image": "{{ site.baseurl }}assets/images/cover1.jpg",
+        "image": "{{ site.url }}assets/images/cover1.jpg",
     {% endif %}
     {% if page.excerpt %}
-        "description": "{{ page.excerpt }}"
+        "description": "{{ page.excerpt | xml_escape }}"
     {% else %}
         "description": "{{ site.description }}"
     {% endif %}
