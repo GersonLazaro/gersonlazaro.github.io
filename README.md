@@ -1,99 +1,24 @@
-## Jasper
+## gersonlazaro.com
 
-[![Build Status](https://travis-ci.org/biomadeira/jasper.svg?branch=master)](https://travis-ci.org/biomadeira/jasper)
-[![Ruby](https://img.shields.io/badge/ruby-2.1.1-blue.svg?style=flat)](http://travis-ci.org/biomadeira/jasper)
-[![Jekyll](https://img.shields.io/badge/jekyll-3.0.0-blue.svg?style=flat)](http://travis-ci.org/biomadeira/jasper)
-
-This is a port of Ghost's default theme [Casper](https://github.com/tryghost/casper) for Jekyll inspired by [Kasper](https://github.com/rosario/kasper). 
-
-You might well ask at this point why bother making a new Casper's clone? 
-Although this is inspired by Kasper, there are several **additional** features which make this port closer 
-to the original theme. Besides, I have recently updated it to match the current version of the theme.
-
+Este es un blog creado utilizando el tema [Covalent](https://github.com/GersonLazaro/covalent) creado por Gerson Lázaro originalmente para [Ghost](https://www.ghost.org) y adaptado para utilizar en Jekyll utilizando el trabajo de [Jasper](https://github.com/biomadeira/jasper). 
 
 ## Live demo
 
-[Jasper Live Demo](https://biomadeira.github.io/jasper)
+[Gerson Lázaro](https://gersonlazaro.com)
 
-[Casper's Original Here](https://demo.ghost.io)
+## Instalación
 
+Puede reutilizar este mecanismo para crear su propio blog a través de github. Sin embargo, tenga en cuenta que las siguientes instrucciones no están completas. De momento, este sitio ha sido realizado para uso personal y no como una plantilla, y si bien con los siguientes pasos tendrá su sitio funcionando, se recomienda enormemente que realice una revisión de los demás archivos del repositorio, especialmente de la carpeta _layouts, para remover cualquier rastro de información relacionada con este sitio (enlaces a suscripción, información del autor, redes sociales, entre otras):
 
-## Screenshots
+1. Cree un fork de este repositorio.
+2. Modifique la información del sitio, editando según sus datos las lineas 9 a la 22 del archivo _config.yml
+3. Elimine el archivo CNAME
+3. IMPORTANTE: Modifique la variable google_analytics de _config.yml (linea 23) por su propio código de seguimiento de Google Analytics, o elimine esta linea (Por favor, no olvide realizar este paso. Eso le permitirá realizar seguimiento de sus visitas, y evitará que sus datos afecten mi propio seguimiento).
+4. IMPORTANTE: Modifique la variable disqus de _config.yml (linea 24) por su propio username de disqus para tener su propio sistema de comentarios (Por favor, no olvide realizar este paso para evitar que sus comentarios aparezcan en mi sitio y viceversa).
+5. Elimine el contenido de la carpeta _posts, y añada en esta carpeta sus propias publicaciones. Antes de eliminarla, puede revisar alguna de las publicaciones para ver el formato de publicación. Son simples archivos markdown con algunas metatiquetas al inicio.
+6. Haga clic en settings en el repositorio en Github, y asegurese de que la sección github pages esté correctamente inicializada (si desea que el blog tenga la dirección username.github.io, asegurese de colocar ese nombre al repositorio.
 
-**Home page**
-![home page](https://raw.githubusercontent.com/biomadeira/jasper/master/assets/images/jasper_screen1.png)
+## Publicación
 
-**Post page**
-![post page](https://raw.githubusercontent.com/biomadeira/jasper/master/assets/images/jasper_screen2.png)
-
-**Author page**
-![author page](https://raw.githubusercontent.com/biomadeira/jasper/master/assets/images/jasper_screen3.png)
-
-**Related posts page**
-![tag page](https://raw.githubusercontent.com/biomadeira/jasper/master/assets/images/jasper_screen4.png)
-
-**Tags page with opened sidebar**
-![sidebar page](https://raw.githubusercontent.com/biomadeira/jasper/master/assets/images/jasper_screen5.png)
-
-**404 page**
-![related page](https://raw.githubusercontent.com/biomadeira/jasper/master/assets/images/jasper_screen6.png)
-
-## Jasper theme includes
-
-* Pagination
-* Author page (New 07.02.2015)
-* Tag page(s) (New 07.02.2015)
-* 404 page (New 07.02.2015)
-* Toggleable sliding sidebar (New 07.02.2015)
-* Related posts view (New 30.10.2015)
-* Tag description(s) (New 30.10.2015)
-* Code Syntax Highlight (New 24.11.2015)
-* Code Syntax Highlight with [highlight.js](https://highlightjs.org/) **(New 06.04.2016)**
-* Rss updated to Jekyll 3.0 **(New 06.04.2016)** 
-* Google Analytics tracking
-* Author's profile with picture
-* Disqus comments (not Ghost standard)
-
-## How to use it
-
-### Deployment
-
-**Important:**  For security reasons, Github doesn't allow plugins (under _plugins/) when deploying with Github Pages. This means:
-
-**1)** that we need to generate your site locally (more details below) and push the resulting HTML to a Github repository;
-
-**2)** built the site with [travis-ci](https://travis-ci.org/) (with goodies from [jekyll-travis](https://github.com/mfenner/jekyll-travis)) automatically pushing the generated *_site/* files to your *gh-pages* branch.
- This later approach is the one I am currently using to generate the live demo.
-
-For option **1)** simply clone this repository (*master branch*), and then run `jekyll serve` inside the directory. Upload the resulting *_site/* contents to your repository (*master branch* if uploading as your personal page (username.github.io) or *gh-pages branch* if uploading as a project page (as for the [demo](https://github.com/biomadeira/jasper/tree/gh-pages)).
-
-For option **2)** you will need to set up travis-ci for your personal fork. Briefly all you need then is to change your details in *[\_config.yml](_config.yml)* so that you can push to your github repo. You will also need to generate a secure key to add to your *[.travis.yml](.travis.yml)* (you can find more info on how to do it in that file). Also make sure you read the documentation from [jekyll-travis](https://github.com/mfenner/jekyll-travis). This approach has clear advantages in that you simply push changes to your files and all the html files are generated for you. Also you get to know if everything is still fine with your site builds. Don't hesitate to contact me if you still have any issues (see below about issue tracking).
-
-### Author pages
-
-As discussed [here](https://github.com/biomadeira/jasper/issues/3), in order to properly generate author pages you need to rename the field *categories* in the front matter of every post to match that of your *username* as defined in the *[\_config.yml](_config.yml)* file.
-This probably means that with a bit of hacking you could in principle generate multiple author blogs. Check this [link](https://github.com/biomadeira/jasper/issues/10) for more on working with multiple authors...
-
-## Issues and contributing 
-
-This install builds well with Ruby v2.1.1 and Jekyll v3.0.0. If you run into any problems please log them on the [issue tracker](https://github.com/biomadeira/jasper/issues).
-
-Feel free pull-request your patches and fixes.
-
-## Thanks 
-
-
-Many thanks to the Ghost team for all the design work that allows to make this clone possible. Also many thanks to all contributors, that help keeping the project alive and updated :smile:
-
-
-## Copyright & License
-
-Copyright (C) 2015 - Released under the MIT License.
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Basta con añadir archivos en formato markdown con los metadatos solicitados para que su sitio aparezca publicado.
 
