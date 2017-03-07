@@ -20,12 +20,12 @@
     <meta name="twitter:url" content="{{ site.url }}">
     <meta property="og:url" content="{{ site.url }}" />
     {% endif %}
-    {% if page.excerpt %}
-        <meta property="og:description" content="{{ page.excerpt | xml_escape }}" />
-    <meta name="twitter:description" content="{{ page.excerpt | xml_escape }}">
+    {% if page.description %}
+        <meta property="og:description" content="{{ page.description }}" />
+        <meta name="twitter:description" content="{{ page.description }}">
     {% else %}
-    <meta name="twitter:description" content="{{ site.description }}">
-    <meta property="og:description" content="{{ site.description }}" />
+        <meta name="twitter:description" content="{{ site.description }}">
+        <meta property="og:description" content="{{ site.description }}" />
     {% endif %}
     {% if page.cover %}
     <meta name="twitter:image:src" content="{{ site.url }}{{page.cover}}">

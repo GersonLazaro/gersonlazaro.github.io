@@ -2,6 +2,7 @@
 layout: post
 cover: 'content/images/2017/03/codejam.jpg'
 title: 'Google Code Jam 2017 ¡Inscripciones abiertas!'
+description: 'Google Code Jam es una de las competencias de programación mas importantes del mundo. ¿Te atreves a participar?'
 date:   2017-03-07 06:12:00
 categories: tech programacion
 navigation: True
