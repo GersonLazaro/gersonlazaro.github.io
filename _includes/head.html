@@ -1,28 +1,61 @@
     <link rel="canonical" href="{{ site.baseurl }}" />
     <meta name="referrer" content="origin" />
     <link rel="next" href="{{ site.baseurl }}page2/" />
-
     <meta property="og:site_name" content="{{ site.name }}" />
     <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@gersonlazaroc">
+    <meta name="twitter:creator" content="@gersonlazaroc">
+    {% if page.title %}
+    <meta name="twitter:title" content="{{ page.title }} - Gerson Lázaro">
+    <meta property="og:title" content="{{ page.title }} - Gerson Lázaro" />
+    {% else %}
+    <meta name="twitter:title" content="{{ site.title }}">
     <meta property="og:title" content="{{ site.name }}" />
-    <meta property="og:description" content="{{ site.description }}" />
+    {% endif %}
+    {% if page.url %}
+    <meta name="twitter:url" content="{{ site.baseurl }}{{ page.url }}">
     <meta property="og:url" content="{{ site.baseurl }}" />
+    {% else %}
+    <meta name="twitter:url" content="{{ site.baseurl }}">
+    <meta property="og:url" content="{{ site.baseurl }}" />
+    {% endif %}
+    {% if page.excerpt %}
+        <meta property="og:description" content="{{ page.excerpt }}" />
+    <meta name="twitter:description" content="{{ page.excerpt }}">
+    {% else %}
+    <meta name="twitter:description" content="{{ site.description }}">
+    <meta property="og:description" content="{{ site.description }}" />
+    {% endif %}
+    {% if page.cover %}
+    <meta name="twitter:image:src" content="{{ site.baseurl }}{{page.cover}}">
+    <meta property="og:image" content="{{ site.baseurl }}{{page.cover}}" />
+    {% else %}
+    <meta name="twitter:image:src" content="{{ site.baseurl }}assets/images/cover1.jpg">
     <meta property="og:image" content="{{ site.baseurl }}assets/images/cover1.jpg" />
+    {% endif %}
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="{{ site.name }}" />
-    <meta name="twitter:description" content="{{ site.description }}" />
-    <meta name="twitter:url" content="{{ site.baseurl }}" />
-    <meta name="twitter:image:src" content="{{ site.baseurl }}assets/images/cover1.jpg" />
 
     <script type="application/ld+json">
 {
     "@context": "http://schema.org",
     "@type": "Website",
     "publisher": "Gerson Lázaro",
-    "url": "{{ site.baseurl }}",
-    "image": "{{ site.baseurl }}assets/images/cover1.jpg",
-    "description": "{{ site.description }}"
+    {% if page.url %}
+        "url": "{{ site.baseurl }}{{ page.url }}",
+    {% else %}
+        "url": "{{ site.baseurl }}",
+    {% endif %} 
+    {% if page.cover %}
+        "image": "{{ site.baseurl }}{{page.cover}}",
+    {% else %}
+        "image": "{{ site.baseurl }}assets/images/cover1.jpg",
+    {% endif %}
+    {% if page.excerpt %}
+        "description": "{{ page.excerpt }}"
+    {% else %}
+        "description": "{{ site.description }}"
+    {% endif %}
 }
     </script>
 

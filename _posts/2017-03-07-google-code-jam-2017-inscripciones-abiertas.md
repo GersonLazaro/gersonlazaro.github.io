@@ -7,7 +7,7 @@ categories: tech programacion
 navigation: True
 ---
 
-Por 13 años consecutivos Google ha organizado una de las mas grandes y desafiantes competencias de programación, y seguramente su versión 14 no será la excepción. Regresa de esta forma el Google Code Jam 2017, la competencia de programadores organizada por Google, donde miles de personas en todo el mundo medirán sus capacidades algoritmicas en un tiempo limitado. ¿Qué esperas para inscribirte?
+Por 13 años consecutivos Google ha organizado una de las mas grandes y desafiantes competencias de programación, y seguramente su versión 14 no será la excepción. Regresa de esta forma el Google Code Jam 2017, la competencia de programadores organizada por Google, donde miles de personas en todo el mundo medirán sus capacidades algorítmicas en un tiempo limitado. ¿Qué esperas para inscribirte?
 
 En el año anterior, según los datos oficiales participaron 27.170 personas, de las cuales el ganador por tercer año consecutivo fue Gennady Korotkevich. Para este año se esperan aproximadamente 30.000 personas.
 
