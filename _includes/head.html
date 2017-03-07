@@ -28,11 +28,11 @@
         <meta property="og:description" content="{{ site.description }}" />
     {% endif %}
     {% if page.cover %}
-    <meta name="twitter:image:src" content="{{ site.url }}{{page.cover}}">
-    <meta property="og:image" content="{{ site.url }}{{page.cover}}" />
+    <meta name="twitter:image:src" content="{{ site.url }}/{{page.cover}}">
+    <meta property="og:image" content="{{ site.url }}/{{page.cover}}" />
     {% else %}
-    <meta name="twitter:image:src" content="{{ site.url }}assets/images/cover1.jpg">
-    <meta property="og:image" content="{{ site.url }}assets/images/cover1.jpg" />
+    <meta name="twitter:image:src" content="{{ site.url }}/assets/images/cover1.jpg">
+    <meta property="og:image" content="{{ site.url }}/assets/images/cover1.jpg" />
     {% endif %}
 
 
@@ -47,12 +47,12 @@
         "url": "{{ site.url }}",
     {% endif %} 
     {% if page.cover %}
-        "image": "{{ site.url }}{{page.cover}}",
+        "image": "{{ site.url }}/{{page.cover}}",
     {% else %}
-        "image": "{{ site.url }}assets/images/cover1.jpg",
+        "image": "{{ site.url }}/assets/images/cover1.jpg",
     {% endif %}
     {% if page.excerpt %}
-        "description": "{{ page.excerpt | xml_escape }}"
+        "description": "{{ page.description }}"
     {% else %}
         "description": "{{ site.description }}"
     {% endif %}
