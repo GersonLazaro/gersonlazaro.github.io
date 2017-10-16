@@ -13,9 +13,9 @@ En este sitio encontrarás artículos de actualidad informática y sus areas afi
 
 En este sitio escribo netamente sobre informática. Sin embargo, aquí comparto mis redes sociales y sitios públicos por si alguno resulta de tu agrado:
 
-* <a href="medium.com/@gersonlazaroc" target="_blank">Medium</a> - En mis ratos personales me gusta escribir cuentos e historias (trágicos por lo general). Si te gusta leer, tal vez quieras darle un vistazo y darme tu opinión (positiva o negativa).
+* <a href="http://medium.com/@gersonlazaroc" target="_blank">Medium</a> - En mis ratos personales me gusta escribir cuentos e historias (trágicos por lo general). Si te gusta leer, tal vez quieras darle un vistazo y darme tu opinión (positiva o negativa).
 * <a href="https://github.com/gersonLazaro/" target="_blank">Github</a> - Mis proyectos personales.
-* <a href="twitter.com/GersonLazaroC" target="_blank">Twitter</a> - Soy un twittero compulsivo, con tweets que van desde política hasta chistes, pasando por supuesto por tecnología. 
+* <a href="http://twitter.com/GersonLazaroC" target="_blank">Twitter</a> - Soy un twittero compulsivo, con tweets que van desde política hasta chistes, pasando por supuesto por tecnología. 
 * <a href="https://co.linkedin.com/in/gersonlazaro">LinkedIn</a> - Poniendonos un poquito mas formales, mi CV en linkedIn.
 * <a href="https://www.goodreads.com/user/show/12955589-gerson-l-zaro">Goodreads</a> - Si te gusta la lectura, tienes libros por recomendar, o quieres ver mis recomendaciones, agregame aquí.
 
