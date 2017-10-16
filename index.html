@@ -12,7 +12,7 @@ current: home
 
 <!-- The big featured header  -->
 <header class="main-header {% if page.cover %}"
-        style="background-image: url({{ site.baseurl }}{{ page.cover }}) {% else %}no-cover{% endif %}">
+        style="background-image: url(/{{ page.cover }}) {% else %}no-cover{% endif %}">
         <div class="post-bg-adjust"></div>
     <nav class="main-nav overlay clearfix">
         {% if page.navigation %}
