@@ -8,13 +8,13 @@ categories: tech programacion
 navigation: True
 ---
 
-Después de algún tiempo sin publicar por motivos académicos, vuelvo a publicar para mostrarles un nuevo proyecto que acabo de empezar. Su nombre es "Aprende X si sabes Y".
+Después de algún tiempo sin publicar por motivos académicos, vuelvo para mostrarles un nuevo proyecto que acabo de empezar. Su nombre es "Aprende X si sabes Y".
 
 ### Aprende X si sabes Y (Learn X if you know Y)
 
 > ¿Conoces algún lenguaje de programación? ¿Estás aprendiendo uno nuevo? Aprende X lenguaje comparando cada una de sus instrucciones con su equivalente en el lenguaje Y que ya conocias. Simplemente elige el lenguaje X que quieres aprender, y el lenguaje Y que ya conoces, y empieza a aprender.
 
-Puedes acceder a Aprende X si sabes Y en español desde [este enlace](https://gersonlazaro.com/aprende-x-si-sabes-y/) o en inglés desde este [otro enlace](https://gersonlazaro.com/learn-x-if-you-know-y/)
+Puedes acceder a Aprende X si sabes Y en español desde [este enlace](https://gersonlazaro.com/aprende-x-si-sabes-y/) o en inglés desde este [otro enlace](https://gersonlazaro.com/learn-x-if-you-know-y/).
 
 ### Historia detrás de esta idea
 
@@ -24,7 +24,7 @@ El nombre de la idea está inspirado en [Learn X in Y Minutes](https://learnxiny
 
 ### Open Source y Hacktoberfest
 
-Esta es una iniciativa de código libre, y como tal, toda la comunidad es bienvenida a aportar su granito de arena. Para todos aquellos que en alguna ocasión han querido incursionar en el mundo del open source pero se han visto intimidados por grandes proyectos sin saber donde empezar (experiencia propia), esta es una buena oportunidad. Aportar es muy sencillo, y en el sitio estan todas las referencias.
+Esta es una iniciativa de código libre, y como tal, toda la comunidad es bienvenida a aportar su granito de arena. Para todos aquellos que en alguna ocasión han querido incursionar en el mundo del open source pero se han visto intimidados por grandes proyectos sin saber donde empezar, esta es una buena oportunidad. Aportar es muy sencillo, y en el sitio estan todas las referencias.
 
 Además, si realizas tus aportes durante el mes de Octubre, *puedes participar en Hacktoberfest y recibir una camiseta gratis de Github y Digital Ocean*. Mas información en [Hacktoberfest](https://hacktoberfest.digitalocean.com).
 
@@ -33,4 +33,5 @@ Además, si realizas tus aportes durante el mes de Octubre, *puedes participar e
 Todo el feedback es bienvenido. 
 
 Sitio en español: [Aprende X si sabes Y](https://gersonlazaro.com/aprende-x-si-sabes-y/)
+
 Sitio en inglés: [Learn X if you know Y](https://gersonlazaro.com/learn-x-if-you-know-y/)
