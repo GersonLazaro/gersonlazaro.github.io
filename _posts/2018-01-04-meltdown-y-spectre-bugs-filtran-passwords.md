@@ -2,7 +2,7 @@
 layout: post
 cover: 'content/images/2018/01/meltdown-y-spectre.png'
 title: 'Meltdown y Spectre: Bugs en computadores modernos que filtran contraseñas e información sensible'
-description: 'Meltdown y Spectre: Bugs en computadores modernos que filtran contraseñas e información sensible'
+description: 'Meltdown y Spectre: Bugs en computadores modernos que podrían filtrar contraseñas e información sensible aprovechando vulnerabilidades existentes en diversos procesadores.'
 date:   2018-01-04 12:12:12
 categories: tech seguridad
 navigation: True
