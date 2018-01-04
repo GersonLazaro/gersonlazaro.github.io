@@ -105,5 +105,7 @@ Spectre fue descubierto y reportado de forma independiente por dos personas:
 Jann Horn (Google Project Zero) y Paul Kocher en colaboración con Daniel Genkin (Universidad de Pensilvania y Universidad de Maryland), Mike Hamburg (Rambus), Moritz Lipp (Universidad Tecnológica de Graz) y Yuval Yarom (Universidad de Adelaida y Data61).
 
 > Artículo técnico sobre Meltdown: <a href="https://meltdownattack.com/meltdown.pdf" target="_blank">Clic aquí</a>
+
 > Artículo técnico sobre Spectre: <a href="https://spectreattack.com/spectre.pdf" target="_blank">Clic aquí</a>
+
 > Los logos de Meltdown y Spectre usados en este artículo fueron diseñados por <a href="https://vividfox.me/" target="_blank">Natascha Eibl</a> y se comparte bajo licencia <a href="http://creativecommons.org/publicdomain/zero/1.0/" target="_blank">Creative Commons Zero</a>.
