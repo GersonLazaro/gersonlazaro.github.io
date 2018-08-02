@@ -30,7 +30,7 @@ En esta lista he incluido SÓLO sitios cuyas imágenes se comparten bajo dominio
 15. <a href="http://skitterphoto.com/" target="_blank">Skitter Photo</a>
 
 **Actualización:**
-El equipo de <a href="http://www.canva.com" target="_blank">Canva</a> (un sitio donde cualquier usuario puede hacer de manera sencilla diseños de buena calidad, totalmente recomendado) han realizado también esta completa lista con 74 Sitios para encontrar imágenes gratuitas: <a href="https://designschool.canva.com/blog/free-stock-photos/" target="_blank">Free Stock Photos: 74 Best Sites To Find Awesome Free Images</a>. Con esto, es imposible no encontrar la imagen que se adapte a tus necesidades.
+El equipo de <a href="http://www.canva.com" target="_blank">Canva</a> (un sitio donde cualquier usuario puede hacer de manera sencilla diseños de buena calidad, totalmente recomendado) han realizado también esta completa lista con 73 sitios para encontrar imágenes gratuitas: <a href="https://www.canva.com/es_mx/aprende/73-mejores-webs-fotos-stock-gratuitas/" target="_blank">Fotografías de stock gratuitas: los mejores 73 sitios para encontrar fantásticas imágenes gratuitas</a>. Con esto, es imposible no encontrar la imagen que se adapte a tus necesidades.
 
 
 
