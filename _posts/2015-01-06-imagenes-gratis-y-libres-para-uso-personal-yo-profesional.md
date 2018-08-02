@@ -22,7 +22,7 @@ En esta lista he incluido SÓLO sitios cuyas imágenes se comparten bajo dominio
 7. <a href="http://snapographic.com/" target="_blank">Snapographic</a>: Fotografias de Thomas Mühl. Es una colección pequeña de muy buena calidad. Puedes descargar todo como un zip por 15 dolares, o bien ver la galeria y descargar gratis las imagenes que tu quieras, sin restricciones. Explora las categorias para ver mas.
 8. <a href="http://moveast.me/" target="_blank">Moveast</a>
 9. <a href="http://snapwiresnaps.tumblr.com/" target="_blank">Snapwire Snaps</a>: Puedes descargar una a una, o por paquetes semanales (7 fotos cada zip). Gratis en ambos casos.
-10. <a href="http://nos.twnsnd.co" target="_blank">New Old Stock</a>: Excelente biblioteca, creada por <a href=""https://twitter.com/twnsndco target="_blank">Cole Townsend</a>.
+10. <a href="http://nos.twnsnd.co" target="_blank">New Old Stock</a>: Excelente biblioteca, creada por <a href="https://twitter.com/twnsndco" target="_blank">Cole Townsend</a>.
 11. <a href="http://www.camarama.de/" target="_blank">Camarama</a>
 12. <a href="http://mmt.li/" target="_blank">MMT</a>: Creada por <a href="http://jeffreybetts.me/" target="_blank">Jeffrey Betts</a>
 13. <a href="http://www.lifeofpix.com/" target="_blank">Life Of Pix</a>
