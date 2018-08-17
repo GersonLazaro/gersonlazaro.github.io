@@ -1,29 +1,16 @@
-## How to Use This Theme
-Just go ahead and read up on [how to install Jekyll](https://jekyllrb.com/). It's not too hard I promise!
-
-Download this repository [here](https://github.com/iwiedenm/jekyll-theme-massively-src/archive/master.zip) and save it to any folder you want.
-
-Open a terminal window or a command line and ```cd``` to that location.
-
-Then enter: ```bundle exec jekyll serve```. You can now access your new Jekyll site from [http://127.0.0.1:4000/](http://127.0.0.1:4000/). Have fun exploring your new site!
-
-## Features
-### Auto-Generating Sitemap
-The sitemap is auto generated! Just simply change the sitemap variable in front matter of each page. It looks like so...
-```
-sitemap:
-    priority: 0.7
-    lastmod: 2017-11-02
-    changefreq: weekly
-```
-
-### Formspring.io Integration
-Formspring is supported out of the box! Just add your email to ```_config.yml```
+Este sitio es generado con Jekyll. Esta es solo la versión de producción.
+Para ver la versión de desarrollo de Jekyll, acceder a la rama develop.
 
 
 ## Credits
+
+### Source Theme
+
+![Jekyll Theme Massively from Iwiedenm](https://github.com/iwiedenm/jekyll-theme-massively-src)
+
 ### Original README from HTML5 UP
 ```
+
 Massively by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
