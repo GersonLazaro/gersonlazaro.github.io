@@ -1,24 +1,60 @@
-## gersonlazaro.com
+## How to Use This Theme
+Just go ahead and read up on [how to install Jekyll](https://jekyllrb.com/). It's not too hard I promise!
 
-Este es un blog creado utilizando el tema [Covalent](https://github.com/GersonLazaro/covalent) creado por Gerson Lázaro originalmente para [Ghost](https://www.ghost.org) y adaptado para utilizar en Jekyll utilizando el trabajo de [Jasper](https://github.com/biomadeira/jasper). 
+Download this repository [here](https://github.com/iwiedenm/jekyll-theme-massively-src/archive/master.zip) and save it to any folder you want.
 
-## Live demo
+Open a terminal window or a command line and ```cd``` to that location.
 
-[Gerson Lázaro](https://gersonlazaro.com)
+Then enter: ```bundle exec jekyll serve```. You can now access your new Jekyll site from [http://127.0.0.1:4000/](http://127.0.0.1:4000/). Have fun exploring your new site!
 
-## Instalación
+## Features
+### Auto-Generating Sitemap
+The sitemap is auto generated! Just simply change the sitemap variable in front matter of each page. It looks like so...
+```
+sitemap:
+    priority: 0.7
+    lastmod: 2017-11-02
+    changefreq: weekly
+```
 
-Puede reutilizar este mecanismo para crear su propio blog a través de github. Sin embargo, tenga en cuenta que las siguientes instrucciones no están completas. De momento, este sitio ha sido realizado para uso personal y no como una plantilla, y si bien con los siguientes pasos tendrá su sitio funcionando, se recomienda enormemente que realice una revisión de los demás archivos del repositorio, especialmente de la carpeta _layouts, para remover cualquier rastro de información relacionada con este sitio (enlaces a suscripción, información del autor, redes sociales, entre otras):
+### Formspring.io Integration
+Formspring is supported out of the box! Just add your email to ```_config.yml```
 
-1. Cree un fork de este repositorio.
-2. Modifique la información del sitio, editando según sus datos las lineas 9 a la 22 del archivo _config.yml
-3. Elimine el archivo CNAME
-3. IMPORTANTE: Modifique la variable google_analytics de _config.yml (linea 23) por su propio código de seguimiento de Google Analytics, o elimine esta linea (Por favor, no olvide realizar este paso. Eso le permitirá realizar seguimiento de sus visitas, y evitará que sus datos afecten mi propio seguimiento).
-4. IMPORTANTE: Modifique la variable disqus de _config.yml (linea 24) por su propio username de disqus para tener su propio sistema de comentarios (Por favor, no olvide realizar este paso para evitar que sus comentarios aparezcan en mi sitio y viceversa).
-5. Elimine el contenido de la carpeta _posts, y añada en esta carpeta sus propias publicaciones. Antes de eliminarla, puede revisar alguna de las publicaciones para ver el formato de publicación. Son simples archivos markdown con algunas metatiquetas al inicio.
-6. Haga clic en settings en el repositorio en Github, y asegurese de que la sección github pages esté correctamente inicializada (si desea que el blog tenga la dirección username.github.io, asegurese de colocar ese nombre al repositorio.
 
-## Publicación
+## Credits
+### Original README from HTML5 UP
+```
+Massively by HTML5 UP
+html5up.net | @ajlkn
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
-Basta con añadir archivos en formato markdown con los metadatos solicitados para que su sitio aparezca publicado.
 
+This is Massively, a text-heavy, article-oriented design built around a huge background
+image (with a new parallax implementation I'm testing) and scroll effects (powered by
+Scrollex). A *slight* departure from all the one-pagers I've been doing lately, but one
+that fulfills a few user requests and makes use of some new techniques I've been wanting
+to try out. Enjoy it :)
+
+Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
+you can use for pretty much whatever.
+
+(* = not included)
+
+AJ
+aj@lkn.io | @ajlkn
+
+
+Credits:
+
+	Demo Images:
+		Unsplash (unsplash.com)
+
+	Icons:
+		Font Awesome (fortawesome.github.com/Font-Awesome)
+
+	Other:
+		jQuery (jquery.com)
+		Misc. Sass functions (@HugoGiraudel)
+		Skel (skel.io)
+		Scrollex (github.com/ajlkn/jquery.scrollex)
+```

@@ -1,41 +1,63 @@
----
-layout: default
-class: 'post-template'
----
-<!-- < default -->
+<!DOCTYPE HTML>
+<!--
+	Gerson Lázaro
+	Credits:
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+  Jekyll integration by somiibo.com
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+    {% include head.html %}
+	</head>
+	<body class="is-loading">
 
-<!-- The comment above "< default" means - insert everything in this file into -->
-    <!-- the [body] of the default.hbs template, which contains our header/footer. -->
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
 
-<!-- Everything inside the #post tags pulls data from the post -->
-<!-- #post -->
-<header class="main-header post-head {% if page.cover %}" style="background-image: url(/{{ page.cover }}) {% else %}no-cover{% endif %}">
-    <nav class="main-nav {% if page.cover %} overlay {% endif %} clearfix">
-        <a class="home-button icon-arrow-left" href="/" ><span class="word">Inicio</span></a>
-        {% if page.navigation %}
-            <a class="menu-button icon-menu" href="#"><span class="word">Menú</span></a>
-        {% endif %}
-    </nav>
-    <div class="post-bg-adjust"></div> 
-        <div class="post-adjust">
-            <div class="post-data">
-                <header class="post-header">
-                    <h2 class="post-title">{{ page.title }}</h2>
-                </header>
-            </div>
-        </div>
-</header>
+				<!-- Header -->
+				<header id="header">
+					<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
+				</header>
 
-<main class="content post-content-fix" role="main">
+				<!-- Nav -->
+					<nav id="nav">
 
-    <article class="{{ page.subclass }}">
-            <section class="post-content">
-                <br><br>
-                {{ content }}
-            </section>
+            {% include nav.html %}
 
-    </article>
+						<ul class="icons">
+              <li><a target="_blank" href="https://twitter.com/{{site.twitter}}" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
+              <li><a target="_blank" href="https://www.linkedin.com/in/{{site.linkedin}}" class="icon fa-linkedin" rel="nofollow"><span class="label">Linkedin</span></a></li>
+              <li><a target="_blank" href="https://medium.com/@{{site.medium}}" class="icon fa-medium" rel="nofollow"><span class="label">Medium</span></a></li>
+              <li><a target="_blank" href="https://github.com/{{site.github}}" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
 
-</main>
+				<!-- Main -->
+				<div id="main">
 
-<!-- /post -->
+					<!-- Post -->
+					<section class="post">
+						<p>{{content}}</p>
+					</section>
+
+					<!-- Footer -->
+						<footer>
+              <ul class="actions">
+								<li><a href="/" class="button">Inicio</a></li>
+              </ul>
+						</footer>
+					</div>
+
+				<!-- Footer -->
+        {% include foot.html %}
+
+			</div>
+
+			<!-- Scripts -->
+			{% include scripts-main.html %}
+			{% include tracking.html %}
+
+	</body>
+</html>

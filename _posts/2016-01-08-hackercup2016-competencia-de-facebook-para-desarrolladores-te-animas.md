@@ -1,10 +1,9 @@
 ---
 layout: post
-cover: 'content/images/2016/01/hacker.png'
-title: 'HackerCup 2016: Competencia de Facebook para desarrolladores. ¿Te animas?'
-date:   2016-01-08 06:12:00
-categories: facebook programacion hacker
-navigation: True
+title:  "HackerCup 2016: Competencia de Facebook para desarrolladores. ¿Te animas?"
+date:   2016-01-08
+description: "La competencia para programadores de Facebook abre sus puertas para la edición 2016. ¿Estás listo?"
+image: "/images/2016/01/hacker.png"
 ---
 
 Como advertía ya en el post anterior sobre <a href="https://gersonlazaro.com/indiahacks-2016-la-reunion-mas-grande-de-desarrolladores-del-mundo/" target="_blank">IndiaHacks 2016</a>, este inicio de año estaría muy movido para los desarrolladores que les guste medir sus habilidades en competencias de todo tipo. Ahora llega el reto de Facebook: Su tradicional Hacker Cup.

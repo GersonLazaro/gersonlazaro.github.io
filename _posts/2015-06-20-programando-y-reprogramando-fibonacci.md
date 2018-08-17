@@ -1,14 +1,13 @@
 ---
 layout: post
-cover: 'content/images/2015/06/fibonacci.jpg'
-title: Programando y reprogramando la sucesión de Fibonacci
-date:   2015-06-20 06:06:00
-categories: programacion
-navigation: True
+title:  "Programando y reprogramando la sucesión de Fibonacci"
+date:    2015-06-20
+description: "0,1,1,2,3,5,8,13,21...¿Te suena? ¡Es hora de programar!."
+image: "/images/2015/06/fibonacci.jpg"
 ---
 
 La conocida sucesión de Fibonacci es aquella sucesión que comienza con los términos 0 y 1, y continua obteniendo cada término sumando sus dos anteriores. Mas formalmente:
-![Generalización de la sucesión de Fibonacci](/content/images/2015/06/generalizacion-fibonacci-1.png)
+![Generalización de la sucesión de Fibonacci](/images/2015/06/generalizacion-fibonacci-1.png)
 
 En este orden de ideas, es fácil descubrir los primeros términos de la sucesión: 0,1,1,2,3,5,8,13,21,34,55,89,144,... Del mismo modo podemos expresar cada termino en base a su función: **Fib(0)**=0, **Fib(1)**=1, **Fib(2)**=1, **Fib(3)**=2, **Fib(4)**=3, **Fib(5)**=5...
 
@@ -21,9 +20,12 @@ FUNCTION fibonacci(INTEGER n)
 ```
 
 Pero analicemos a fondo lo que hace esta función. Recursivamente, estará llamando a sus dos anteriores. Cada una de estas llamadas, si es mayor que 1, de nuevo estará llamando a sus dos anteriores. Analicemos el árbol de llamadas para un fibonacci de orden 6:
-![Árbol fibonacci](/content/images/2015/06/arbol-fibonacci.png)
 
-Este es un algoritmo de orden exponencial, mas exactamente ![phi^n](/content/images/2015/06/orden-fibonacci.png) La explicación de este costo puede ser algo extensa, así que si quieres leerla a fondo, te recomiendo leerla <a href="http://www.lcc.uma.es/~av/Libro/CAP1.pdf" target="_blank">aquí</a> (página 11). Esto significa que es terriblemente lento, pues tendrá que hacer excesivas operaciones para valores altos de n. 
+<span class="image center">
+    <img src="/images/2015/06/arbol-fibonacci.png">
+</span>
+
+Este es un algoritmo de orden exponencial, mas exactamente ![phi^n](/images/2015/06/orden-fibonacci.png) La explicación de este costo puede ser algo extensa, así que si quieres leerla a fondo, te recomiendo leerla <a href="http://www.lcc.uma.es/~av/Libro/CAP1.pdf" target="_blank">aquí</a> (página 11). Esto significa que es terriblemente lento, pues tendrá que hacer excesivas operaciones para valores altos de n. 
 
 ###### ¿A que se debe esta ineficiencia?
 
@@ -65,24 +67,39 @@ Ahora la complejidad temporal sigue siendo de orden **O(n)** pero la complejidad
 
 ###### ¿Que tal un algoritmo O(log<sub>2</sub>n)?
 Volviendo al inicio, sabemos que:
-![Fib(n)=Fib(n-1)+Fin(n-2)](/content/images/2015/06/fibonacci-formula-gen.png)
+
+![Fib(n)=Fib(n-1)+Fin(n-2)](/images/2015/06/fibonacci-formula-gen.png)
 
 Partiendo de aquí, podemos fácilmente desarrollar un sistema de ecuaciones:
-![Ecuaciones](/content/images/2015/06/matriz1.png)
+
+![Ecuaciones](/images/2015/06/matriz1.png)
+
 Y por supuesto, lo reescribiremos en notación matricial:
-![Matriz Fibonacci](/content/images/2015/06/matriz2.png)
+
+![Matriz Fibonacci](/images/2015/06/matriz2.png)
+
 Verificando estos valores para n = 2
-![](/content/images/2015/06/matriz-fibonacci-n-1.png)
+
+![](/images/2015/06/matriz-fibonacci-n-1.png)
+
 Conociendo que **Fib(0)**=0 y **Fib(1)=1**:
-![](/content/images/2015/06/matriz-1-1.png)
+
+![](/images/2015/06/matriz-1-1.png)
+
 Y efectivamente, **Fib(2)**=1. Ahora bien, generalizando para diferentes valores de n.
-![](/content/images/2015/06/ec4.png)
-![](/content/images/2015/06/ec5.png)
+
+![](/images/2015/06/ec4.png)
+
+![](/images/2015/06/ec5.png)
 
 Ahora recordemos 3 propiedades de la potenciación:
-![](/content/images/2015/06/leyes-1.png)
+
+![](/images/2015/06/leyes-1.png)
+
 Los cuales nos permitirán hacer un "divide y vencerás" para resolver la potencia de una manera eficiente:
-![](/content/images/2015/06/potencias.png)
+
+![](/images/2015/06/potencias.png)
+
 Ahora si, procedemos al algoritmo:
 ```
 FUNCTION fibonacci(INTEGER n)
@@ -101,13 +118,16 @@ FUNCTION fibonacci(INTEGER n)
      RETURN j
 ```
 ¿Que demonios he hecho? Básicamente, partir el problema. Para explicarlo, miremos paso a paso el proceso para hallar el **Fib(11)**:
-![](/content/images/2015/06/sola.png)
-![](/content/images/2015/06/solucion2.png)
+
+![](/images/2015/06/sola.png)
+
+![](/images/2015/06/solucion2.png)
+
 Y así llegamos a la respuesta de manera mas rápida, en un orden O(log<sub>2</sub>n). Para hacernos una idea, para calcular el Fib(200) con el algoritmo exponencial, ocuparíamos 6.2737x10^41 cálculos (interminable). Con el algoritmo de orden n ocuparíamos 200 cálculos, y con este algoritmo, 8 operaciones (Por supuesto estos datos son aproximados, pero muestran claramente las diferencias abismales)  
 ###### Una última mejora
 
 Ok ok, esto no es una última mejora, en realidad es un cambio total. Hasta ahora hemos manejado cada término de la sucesión en base a sus términos anteriores. Pero existe también una formula explicita creada por Lucas para hallar directamente un término sin necesidad de iterar.
-![Formula explicita de fibonacci](/content/images/2015/06/formula-explicita-fibonacci.png)
+![Formula explicita de fibonacci](/images/2015/06/formula-explicita-fibonacci.png)
 
 Partiendo de esta formula, podemos crear esta función:
 

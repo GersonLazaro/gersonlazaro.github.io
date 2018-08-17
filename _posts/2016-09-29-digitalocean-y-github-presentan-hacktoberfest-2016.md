@@ -1,10 +1,9 @@
 ---
 layout: post
-cover: 'content/images/2016/09/1500x500.jpg'
-title: 'DigitalOcean y Github presentan Hacktoberfest 2016'
-date:   2016-09-29 06:12:00
-categories: programacion tech web openSource
-navigation: True
+title:  "DigitalOcean y Github presentan Hacktoberfest 2016"
+date:   2016-09-29
+description: "Hacktoberfest, el festival virtual del código libre organizado por Github y Digital Ocean se renueva."
+image: "/images/2016/09/1500x500.jpg"
 ---
 
 >Apoya y celebra el software libre. Gana una camiseta edición limitada.

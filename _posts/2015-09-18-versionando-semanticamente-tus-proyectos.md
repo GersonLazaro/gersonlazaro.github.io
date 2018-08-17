@@ -1,10 +1,9 @@
 ---
 layout: post
-cover: 'content/images/2015/09/versionado-semantico.jpg'
-title: Versionando semánticamente tus proyectos de software
-date:   2015-09-18 06:06:00
-categories: programacion tech web
-navigation: True
+title:  "Versionando semánticamente tus proyectos de software"
+date:    2015-09-18
+description: "Guía práctica para versionar proyectos de software siguiendo un estandar muy sencillo."
+image: "/images/2015/09/versionado-semantico.jpg"
 ---
 
 Según wikipedia, *"El versionado de software es el proceso de asignación de un nombre, código o número único, a un software para indicar su nivel de desarrollo."*

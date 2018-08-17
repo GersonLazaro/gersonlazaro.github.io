@@ -1,11 +1,9 @@
 ---
 layout: post
-cover: 'content/images/2017/10/aprende-x-si-sabes-y.jpeg'
-title: 'Nuevo proyecto: Aprende X si sabes Y'
-description: 'Aprende X si sabes Y, donde X = Lenguaje que quieres aprender y Y = Lenguaje que ya conoces'
-date:   2017-10-17 12:12:12
-categories: tech programacion
-navigation: True
+title:  "Nuevo proyecto: Aprende X si sabes Y"
+date:   2017-10-17
+description: "Aprende X si sabes Y, donde X = Lenguaje que quieres aprender y Y = Lenguaje que ya conoces."
+image: "/images/2017/10/aprende-x-si-sabes-y.jpeg"
 ---
 
 Después de algún tiempo sin publicar por motivos académicos, vuelvo para mostrarles un nuevo proyecto que acabo de empezar. Su nombre es "Aprende X si sabes Y".

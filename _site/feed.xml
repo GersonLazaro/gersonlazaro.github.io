@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://www.gersonlazaro.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://www.gersonlazaro.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.gersonlazaro.com/" rel="alternate" type="text/html" /><updated>2018-08-16T23:49:59-05:00</updated><id>https://www.gersonlazaro.com/</id><title type="html">Gerson Lázaro</title><subtitle>Blog de Gerson Lázaro</subtitle><entry><title type="html">Meltdown y Spectre: Bugs en computadores modernos que filtran contraseñas e información sensible</title><link href="https://www.gersonlazaro.com/meltdown-y-spectre-bugs-filtran-passwords/" rel="alternate" type="text/html" title="Meltdown y Spectre: Bugs en computadores modernos que filtran contraseñas e información sensible" /><published>2018-01-04T00:00:00-05:00</published><updated>2018-01-04T00:00:00-05:00</updated><id>https://www.gersonlazaro.com/meltdown-y-spectre-bugs-filtran-passwords</id><content type="html" xml:base="https://www.gersonlazaro.com/meltdown-y-spectre-bugs-filtran-passwords/">&lt;blockquote&gt;
+  &lt;p&gt;Este artículo es una traducción de la información original en inglés publicada &lt;a href=&quot;https://meltdownattack.com&quot; target=&quot;_blank&quot;&gt;aquí&lt;/a&gt;. Por tanto, puede contener información técnica. Si no desea profundizar en estos tecnicismos, la recomendación es simple: No entre en pánico, y mantenga su sistema operativo actualizado.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Meltdown y Spectre se aprovechan de vulnerabilidades críticas en procesadores modernos. Estos errores de hardware permiten a los programas robar datos que están siendo procesados por el computador. Si bien los programas normalmente no tienen permiso para leer datos de otros programas, un programa malicioso puede explotar Meltdown o Spectre para obtener información secreta guardada en la memoria de otros programas en ejecución. Esto podría incluir sus contraseñas almacenadas en un administrador de contraseñas o un navegador, sus fotos personales, correos electrónicos, mensajes instantáneos e incluso documentos confidenciales críticos de empresas.&lt;/p&gt;
+
+&lt;p&gt;Meltdown y Spectre trabajan en computadoras personales, dispositivos móviles y en la nube. Dependiendo de la infraestructura del proveedor de la nube, podría ser posible robar datos de otros clientes.&lt;/p&gt;
+
+&lt;h3 id=&quot;meltdown&quot;&gt;Meltdown&lt;/h3&gt;
+
+&lt;p&gt;&lt;span class=&quot;image left&quot;&gt;&lt;img src=&quot;/images/2018/01/meltdown.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Meltdown rompe el aislamiento fundamental entre las aplicaciones del usuario y el sistema operativo. Este ataque permite que un programa acceda a la memoria y, por lo tanto, también a los datos secretos de otros programas y del sistema operativo.&lt;/p&gt;
+
+&lt;p&gt;Si su computadora tiene un procesador vulnerable y ejecuta un sistema operativo no parcheado, no es seguro trabajar con información confidencial (existe la posibilidad de filtrado de la información). Esto se aplica tanto a las computadoras personales como a la infraestructura en la nube. Afortunadamente, ya existen parches de software contra Meltdown.&lt;/p&gt;
+
+&lt;h3 id=&quot;spectre&quot;&gt;Spectre&lt;/h3&gt;
+
+&lt;p&gt;&lt;span class=&quot;image left&quot;&gt;&lt;img src=&quot;/images/2018/01/spectre.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Spectre rompe el aislamiento entre diferentes aplicaciones. Esto permite a un atacante engañar a programas sin errores en su diseño, desarrollado con las mejores prácticas, para filtrar sus datos secretos. De hecho, los controles de seguridad de dichas mejores prácticas en realidad aumentan las posibilidades de ataque y pueden hacer que las aplicaciones sean más susceptibles a Spectre.&lt;/p&gt;
+
+&lt;p&gt;Spectre es más difícil de explotar que Meltdown, pero también es más difícil de mitigar. Sin embargo, es posible evitar exploits conocidos específicos basados en Spectre a través de parches de software.&lt;/p&gt;
+
+&lt;h5 id=&quot;este-error-me-afecta&quot;&gt;¿Este error me afecta?&lt;/h5&gt;
+
+&lt;p&gt;Sin duda, sí.&lt;/p&gt;
+
+&lt;h5 id=&quot;puedo-detectar-si-alguien-ha-explotado-meltdown-o-spectre-en-mi-contra&quot;&gt;¿Puedo detectar si alguien ha explotado Meltdown o Spectre en mi contra?&lt;/h5&gt;
+
+&lt;p&gt;Probablemente no. La explotación no deja ningún rastro en los archivos de registro tradicionales.&lt;/p&gt;
+
+&lt;h5 id=&quot;mi-antivirus-puede-detectar-o-bloquear-este-ataque&quot;&gt;¿Mi antivirus puede detectar o bloquear este ataque?&lt;/h5&gt;
+
+&lt;p&gt;Aunque en teoría es posible, en la práctica es poco probable. A diferencia del malware habitual, Meltdown y Spectre son difíciles de distinguir de las aplicaciones comunes. Sin embargo, su antivirus puede detectar malware que usa estos bugs comparando sus archivos binarios una vez que se hacen conocidos.&lt;/p&gt;
+
+&lt;h5 id=&quot;qué-información-se-puede-filtrar&quot;&gt;¿Qué información se puede filtrar?&lt;/h5&gt;
+
+&lt;p&gt;Si su sistema se ve afectado, un exploit que explote estas vulnerabilidades podría leer el contenido de la memoria de su computadora. Esto puede incluir contraseñas y datos confidenciales almacenados en el sistema.&lt;/p&gt;
+
+&lt;h5 id=&quot;meltdown-o-spectre-ya-han-sido-aprovechados-por-atacantes-maliciosos&quot;&gt;¿Meltdown o Spectre ya han sido aprovechados por atacantes maliciosos?&lt;/h5&gt;
+
+&lt;p&gt;No lo sabemos.&lt;/p&gt;
+
+&lt;h5 id=&quot;hay-una-solución&quot;&gt;¿Hay una solución?&lt;/h5&gt;
+
+&lt;p&gt;Hay parches contra Meltdown para Linux (&lt;a href=&quot;https://lwn.net/Articles/738975/&quot; target=&quot;_blank&quot;&gt;KPTI (anteriormente KAISER))&lt;/a&gt;, Windows y OS X. También se está trabajando para fortalecer el software contra la futura explotación de Spectre (&lt;a href=&quot;http://lists.llvm.org/pipermail/llvm-commits/Week-of-Mon-20180101/513630.html&quot; target=&quot;_blank&quot;&gt;parche LLVM&lt;/a&gt;).&lt;/p&gt;
+
+&lt;h5 id=&quot;qué-sistemas-se-ven-afectados-por-meltdown&quot;&gt;¿Qué sistemas se ven afectados por Meltdown?&lt;/h5&gt;
+
+&lt;p&gt;Los computadores de escritorio, portátiles y en la nube podrían verse afectadas por Meltdown. Más técnicamente, cada procesador Intel que implemente la ejecución especulativa se ve potencialmente afectado, es decir, todos sus procesadores desde 1995 (excepto Intel Itanium e Intel Atom antes de 2013). Actualmente, solo se ha verificado Meltdown en procesadores Intel. Por el momento, no está claro si los procesadores ARM y AMD también se ven afectados por Meltdown.&lt;/p&gt;
+
+&lt;h5 id=&quot;qué-sistemas-se-ven-afectados-por-spectre&quot;&gt;¿Qué sistemas se ven afectados por Spectre?&lt;/h5&gt;
+
+&lt;p&gt;Casi cualquier equipo puede ser afectado por Spectre: Computadores de escritorio, portátiles, servidores en la nube y smartphones. Más específicamente, todos los procesadores modernos capaces de mantener muchas instrucciones en vuelo son potencialmente vulnerables. En particular, se han verificado Spectre en procesadores Intel, AMD y ARM.&lt;/p&gt;
+
+&lt;h5 id=&quot;qué-proveedores-en-la-nube-se-ven-afectados-por-meltdown&quot;&gt;¿Qué proveedores en la nube se ven afectados por Meltdown?&lt;/h5&gt;
+
+&lt;p&gt;Proveedores de nube que usan CPU Intel y paravirtualización Xen sin aplicar parches. Además, los proveedores en la nube sin virtualización de hardware real, que dependen de contenedores que comparten un kernel, como Docker, LXC u OpenVZ se ven afectados.&lt;/p&gt;
+
+&lt;h5 id=&quot;cuál-es-la-diferencia-entre-meltdown-y-spectre&quot;&gt;¿Cuál es la diferencia entre Meltdown y Spectre?&lt;/h5&gt;
+
+&lt;p&gt;Meltdown rompe el mecanismo que impide que las aplicaciones accedan arbitrariamente a la memoria del sistema. En consecuencia, las aplicaciones pueden acceder a la memoria del sistema. Spectre engaña a otras aplicaciones para acceder a ubicaciones arbitrarias en su memoria. Ambos ataques usan canales laterales para obtener la información de la ubicación de la memoria a la que se accede. Para una discusión más técnica, puedes leer los artículos (&lt;a href=&quot;https://meltdownattack.com/meltdown.pdf&quot; target=&quot;_blank&quot;&gt;Meltdown&lt;/a&gt; and &lt;a href=&quot;https://spectreattack.com/spectre.pdf&quot; target=&quot;_blank&quot;&gt;Spectre&lt;/a&gt;).&lt;/p&gt;
+
+&lt;h5 id=&quot;por-qué-se-llama-meltdown&quot;&gt;¿Por qué se llama Meltdown?&lt;/h5&gt;
+
+&lt;p&gt;El error básicamente funde los límites de seguridad que normalmente son aplicados por el hardware (Fundir en inglés traduce Melt, de allí el nombre Meltdown).&lt;/p&gt;
+
+&lt;h5 id=&quot;por-qué-se-llama-spectre&quot;&gt;¿Por qué se llama Spectre?&lt;/h5&gt;
+
+&lt;p&gt;El nombre se basa en la causa raíz, la ejecución especulativa. Como no es fácil de solucionar, nos perseguirá durante bastante tiempo (El nombre en español traduce espectro, que puede entenderse como fantasma, de allí la explicación).&lt;/p&gt;
+
+&lt;h5 id=&quot;hay-más-información-técnica-sobre-meltdown-y-spectre&quot;&gt;¿Hay más información técnica sobre Meltdown y Spectre?&lt;/h5&gt;
+
+&lt;p&gt;Sí, hay un &lt;a href=&quot;https://meltdownattack.com/meltdown.pdf&quot; target=&quot;_blank&quot;&gt;trabajo académico&lt;/a&gt; y una &lt;a href=&quot;http://blog.cyberus-technology.de/posts/2018-01-03-meltdown.html&quot; target=&quot;_blank&quot;&gt;entrada de blog&lt;/a&gt; sobre Meltdown, y un &lt;a href=&quot;https://spectreattack.com/spectre.pdf&quot; target=&quot;_blank&quot;&gt;trabajo académico&lt;/a&gt; sobre Spectre. Además, hay una &lt;a href=&quot;https://googleprojectzero.blogspot.co.at/2018/01/reading-privileged-memory-with-side.html&quot; target=&quot;_blank&quot;&gt;entrada de blog&lt;/a&gt; de Google Project Zero sobre ambos ataques.&lt;/p&gt;
+
+&lt;h5 id=&quot;qué-son-cve-2017-5753-y-cve-2017-5715&quot;&gt;¿Qué son CVE-2017-5753 y CVE-2017-5715?&lt;/h5&gt;
+
+&lt;p&gt;CVE-2017-5753 y CVE-2017-5715 son las referencias oficiales de Spectre. CVE es el Estándar para Nombres de Vulnerabilidades de Seguridad de la Información mantenido por MITRE.&lt;/p&gt;
+
+&lt;h5 id=&quot;que-es-cve-2017-5754&quot;&gt;Que es CVE-2017-5754?&lt;/h5&gt;
+
+&lt;p&gt;CVE-2017-5754 es la referencia oficial de Meltdown. CVE es el Estándar para Nombres de Vulnerabilidades de Seguridad de la Información mantenido por MITRE.&lt;/p&gt;
+
+&lt;h5 id=&quot;quién-descubrió-meltdown&quot;&gt;¿Quién descubrió Meltdown?&lt;/h5&gt;
+
+&lt;p&gt;Meltdown fue descubierto y reportado de forma independiente por tres equipos:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Jann Horn (Google Project Zero),&lt;/li&gt;
+  &lt;li&gt;Werner Haas y Thomas Prescher (Cyberus Technology),&lt;/li&gt;
+  &lt;li&gt;Daniel Gruss, Moritz Lipp, Stefan Mangard y Michael Schwarz (Universidad Tecnológica de Graz)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;quién-descubrió-spectre&quot;&gt;¿Quién descubrió Spectre?&lt;/h5&gt;
+
+&lt;p&gt;Spectre fue descubierto y reportado de forma independiente por dos personas:&lt;/p&gt;
+
+&lt;p&gt;Jann Horn (Google Project Zero) y Paul Kocher en colaboración con Daniel Genkin (Universidad de Pensilvania y Universidad de Maryland), Mike Hamburg (Rambus), Moritz Lipp (Universidad Tecnológica de Graz) y Yuval Yarom (Universidad de Adelaida y Data61).&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Artículo técnico sobre Meltdown: &lt;a href=&quot;https://meltdownattack.com/meltdown.pdf&quot; target=&quot;_blank&quot;&gt;Clic aquí&lt;/a&gt;
+Artículo técnico sobre Spectre: &lt;a href=&quot;https://spectreattack.com/spectre.pdf&quot; target=&quot;_blank&quot;&gt;Clic aquí&lt;/a&gt;
+Los logos de Meltdown y Spectre usados en este artículo fueron diseñados por &lt;a href=&quot;https://vividfox.me/&quot; target=&quot;_blank&quot;&gt;Natascha Eibl&lt;/a&gt; y se comparte bajo licencia &lt;a href=&quot;http://creativecommons.org/publicdomain/zero/1.0/&quot; target=&quot;_blank&quot;&gt;Creative Commons Zero&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;</content><summary type="html">Este artículo es una traducción de la información original en inglés publicada aquí. Por tanto, puede contener información técnica. Si no desea profundizar en estos tecnicismos, la recomendación es simple: No entre en pánico, y mantenga su sistema operativo actualizado.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.gersonlazaro.com/images/2018/01/meltdown-y-spectre.png" /></entry><entry><title type="html">Nuevo proyecto: Aprende X si sabes Y</title><link href="https://www.gersonlazaro.com/nuevo-proyecto-aprende-x-si-sabes-y/" rel="alternate" type="text/html" title="Nuevo proyecto: Aprende X si sabes Y" /><published>2017-10-17T00:00:00-05:00</published><updated>2017-10-17T00:00:00-05:00</updated><id>https://www.gersonlazaro.com/nuevo-proyecto-aprende-x-si-sabes-y</id><content type="html" xml:base="https://www.gersonlazaro.com/nuevo-proyecto-aprende-x-si-sabes-y/">&lt;p&gt;Después de algún tiempo sin publicar por motivos académicos, vuelvo para mostrarles un nuevo proyecto que acabo de empezar. Su nombre es “Aprende X si sabes Y”.&lt;/p&gt;
+
+&lt;h3 id=&quot;aprende-x-si-sabes-y-learn-x-if-you-know-y&quot;&gt;Aprende X si sabes Y (Learn X if you know Y)&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;¿Conoces algún lenguaje de programación? ¿Estás aprendiendo uno nuevo? Aprende X lenguaje comparando cada una de sus instrucciones con su equivalente en el lenguaje Y que ya conocias. Simplemente elige el lenguaje X que quieres aprender, y el lenguaje Y que ya conoces, y empieza a aprender.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Puedes acceder a Aprende X si sabes Y en español desde &lt;a href=&quot;https://gersonlazaro.com/aprende-x-si-sabes-y/&quot;&gt;este enlace&lt;/a&gt; o en inglés desde este &lt;a href=&quot;https://gersonlazaro.com/learn-x-if-you-know-y/&quot;&gt;otro enlace&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;historia-detrás-de-esta-idea&quot;&gt;Historia detrás de esta idea&lt;/h3&gt;
+
+&lt;p&gt;Hace algún tiempo publiqué &lt;a href=&quot;https://gersonlazaro.com/guia-de-c-para-maratonistas-java-2/&quot;&gt;Guía de C++ para maratonistas Java&lt;/a&gt;, un simple PDF que explica como realizar tareas comunes de programación en C++, a modo de comparación con el mismo código en lenguaje Java. Esta guía la escribí especificamente para un grupo de estudio universitario que conocía Java y quería aprender C++. Este pdf ha recibido muy buen feedback tanto en el grupo como fuera de el, y por tanto decidí agrandar un poco mas la idea. No solo de C++ a Java, sino de cualquier lenguaje a cualquier otro.&lt;/p&gt;
+
+&lt;p&gt;El nombre de la idea está inspirado en &lt;a href=&quot;https://learnxinyminutes.com&quot;&gt;Learn X in Y Minutes&lt;/a&gt;, una iniciativa Open Source de &lt;a href=&quot;https://adambard.com&quot;&gt;Adam Bard&lt;/a&gt; que vale la pena revisar.&lt;/p&gt;
+
+&lt;h3 id=&quot;open-source-y-hacktoberfest&quot;&gt;Open Source y Hacktoberfest&lt;/h3&gt;
+
+&lt;p&gt;Esta es una iniciativa de código libre, y como tal, toda la comunidad es bienvenida a aportar su granito de arena. Para todos aquellos que en alguna ocasión han querido incursionar en el mundo del open source pero se han visto intimidados por grandes proyectos sin saber donde empezar, esta es una buena oportunidad. Aportar es muy sencillo, y en el sitio estan todas las referencias.&lt;/p&gt;
+
+&lt;p&gt;Además, si realizas tus aportes durante el mes de Octubre, &lt;em&gt;puedes participar en Hacktoberfest y recibir una camiseta gratis de Github y Digital Ocean&lt;/em&gt;. Mas información en &lt;a href=&quot;https://hacktoberfest.digitalocean.com&quot;&gt;Hacktoberfest&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Todo el feedback es bienvenido.&lt;/p&gt;
+
+&lt;p&gt;Sitio en español: &lt;a href=&quot;https://gersonlazaro.com/aprende-x-si-sabes-y/&quot;&gt;Aprende X si sabes Y&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Sitio en inglés: &lt;a href=&quot;https://gersonlazaro.com/learn-x-if-you-know-y/&quot;&gt;Learn X if you know Y&lt;/a&gt;&lt;/p&gt;</content><summary type="html">Después de algún tiempo sin publicar por motivos académicos, vuelvo para mostrarles un nuevo proyecto que acabo de empezar. Su nombre es “Aprende X si sabes Y”.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.gersonlazaro.com/images/2017/10/aprende-x-si-sabes-y.jpeg" /></entry><entry><title type="html">Google Code Jam 2017 ¡Inscripciones abiertas!</title><link href="https://www.gersonlazaro.com/google-code-jam-2017-inscripciones-abiertas/" rel="alternate" type="text/html" title="Google Code Jam 2017 ¡Inscripciones abiertas!" /><published>2017-03-07T00:00:00-05:00</published><updated>2017-03-07T00:00:00-05:00</updated><id>https://www.gersonlazaro.com/google-code-jam-2017-inscripciones-abiertas</id><content type="html" xml:base="https://www.gersonlazaro.com/google-code-jam-2017-inscripciones-abiertas/">&lt;p&gt;Por 13 años consecutivos Google ha organizado una de las mas grandes y desafiantes competencias de programación, y seguramente su versión 14 no será la excepción. Regresa de esta forma el Google Code Jam 2017, la competencia de programadores organizada por Google, donde miles de personas en todo el mundo medirán sus capacidades algorítmicas en un tiempo limitado. ¿Qué esperas para inscribirte?&lt;/p&gt;
+
+&lt;p&gt;En el año anterior, según los datos oficiales participaron 27.170 personas, de las cuales el ganador por tercer año consecutivo fue Gennady Korotkevich. Para este año se esperan aproximadamente 30.000 personas.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oJ_IzFsXcMo&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;como-es-el-concurso&quot;&gt;¿Como es el concurso?&lt;/h3&gt;
+
+&lt;p&gt;El concurso consta de varias rondas y en cada una de ellas los participantes contarán con un tiempo definido para resolver un conjunto de problemas utilizando para ello sus habilidades de programación. Si previamente has participado en competencias de ACM ICPC, o Facebook Hacker Cup y similares, no encontrarás grandes diferencias. Las primeras rondas se realizan de forma virtual a través de internet, y quienes logren llegar a la fase final, son invitados a participar directamente en las oficinas de Google en algún sitio del mundo (este año, el sitio elegido es Dublin, Irlanda). No es necesario utilizar un lenguaje de programación o un editor/IDE específico: puedes utilizar cualquiera, con el que te sientas a gusto.&lt;/p&gt;
+
+&lt;p&gt;Los ejercicios en Code jam tienen una particularidad: Son validados con dos conjuntos de datos de prueba diferentes, uno mas grande que el otro y se puntuan por aparte. Por tanto, una solución puede no ser tan eficiente, pero aún así funcionar con el caso de prueba mas corto y recibir esa parte del puntaje, mientras excede el tiempo limite o la memoria con los casos mas grandes.&lt;/p&gt;
+
+&lt;p&gt;Si nunca has participado en estas competencias, puedes practicar con los problemas de ediciones anteriores &lt;a href=&quot;https://code.google.com/codejam/contests.html&quot; target=&quot;_blank&quot;&gt;aquí&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;fechas-y-dinámica-del-concurso&quot;&gt;Fechas y dinámica del concurso&lt;/h3&gt;
+
+&lt;p&gt;El registro se encuentra abierto entre el 7 de marzo y el 9 de abril. El 7 de abril inicia la fase de clasificación, la cual dura 27 horas. Quienes clasifiquen, pasan a la fase 1, la cual dura 2 horas y 30 minutos, pero se realiza en 3 horarios diferentes. Si no logras la clasificación en uno de estos horarios, puedes participar en el segundo y en el tercero sin problemas. Posteriormente se realizan las fases 2 y 3, ambas con un único horario, en cada una de las cuales siguen eliminandose participante, hasta llegar a los 25 que compiten en la ronda final, presencial en Dublin.&lt;/p&gt;
+
+&lt;p&gt;Puedes ver el calendario completo &lt;a href=&quot;https://code.google.com/codejam/schedule.html&quot; target=&quot;_blank&quot;&gt;aquí&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;premios&quot;&gt;Premios&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Primer puesto&lt;/strong&gt;: USD $15.000&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Segundo puesto&lt;/strong&gt;: USD $2.000&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Tercer puesto&lt;/strong&gt;: USD $1.000&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Puestos 4-25&lt;/strong&gt;: USD $100&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Puestos 1-1000&lt;/strong&gt;: Camiseta de Google Code Jam (Para quienes ocupen estas posiciones al finalizar la ronda 2).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;registro&quot;&gt;Registro&lt;/h3&gt;
+
+&lt;p&gt;Si decides participar, las inscripciones estan abiertas en: &lt;a href=&quot;https://code.google.com/codejam&quot; target=&quot;_blank&quot;&gt;Google Code Jam 2017&lt;/a&gt;&lt;/p&gt;</content><summary type="html">Por 13 años consecutivos Google ha organizado una de las mas grandes y desafiantes competencias de programación, y seguramente su versión 14 no será la excepción. Regresa de esta forma el Google Code Jam 2017, la competencia de programadores organizada por Google, donde miles de personas en todo el mundo medirán sus capacidades algorítmicas en un tiempo limitado. ¿Qué esperas para inscribirte?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.gersonlazaro.com/images/2017/03/codejam.jpg" /></entry><entry><title type="html">Descubre con que tecnologías se construyeron tus sitios web favoritos</title><link href="https://www.gersonlazaro.com/descubre-con-que-tecnologias-se-construyeron-tus-sitios-web-favoritos/" rel="alternate" type="text/html" title="Descubre con que tecnologías se construyeron tus sitios web favoritos" /><published>2017-02-07T00:00:00-05:00</published><updated>2017-02-07T00:00:00-05:00</updated><id>https://www.gersonlazaro.com/descubre-con-que-tecnologias-se-construyeron-tus-sitios-web-favoritos</id><content type="html" xml:base="https://www.gersonlazaro.com/descubre-con-que-tecnologias-se-construyeron-tus-sitios-web-favoritos/">&lt;p&gt;¿Alguna vez te has preguntado que tecnologías están detrás de un sitio web en específico? ¿Con cual lenguaje se construyó Facebook, que tecnologías usan en Google, que herramientas internas maneja twitter? Pues justamente para eso existe &lt;a href=&quot;https://builtwith.com/&quot; target=&quot;_blank&quot;&gt;Built With&lt;/a&gt;.
+&lt;span class=&quot;image center&quot;&gt;
+  &lt;img src=&quot;/images/2017/02/built-with-logo-1.png&quot; /&gt;
+&lt;/span&gt;
+Simplemente entra a &lt;a href=&quot;https://builtwith.com/&quot; target=&quot;_blank&quot;&gt;Built With&lt;/a&gt; e introduce en el buscador el sitio web del cual quieres conocer sus tecnologías. El analisis es muy detallado, cubriendo diferentes categorías y herramientas. Por ejemplo, al buscar &lt;a href=&quot;#&quot;&gt;gersonlazaro.com&lt;/a&gt;, el resumen es el siguiente:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Webserver&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Nginx 1.6&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Proveedor de hosting&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Hosting Dedicado&lt;/li&gt;
+      &lt;li&gt;Digital Ocean&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Certificados SSL&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;LetsEncrypt&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Manejador de contenidos (CMS)&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Ghost.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Frameworks&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Express.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Análisis y seguimiento&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Google Analytics.&lt;/li&gt;
+      &lt;li&gt;Google Universal Analytics&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Librerias JavaScript&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Jquery&lt;/li&gt;
+      &lt;li&gt;FitVids.js&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Moviles&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Meta-etiqueta viewport&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Red de entrega de contenidos&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Jquery CDN&lt;/li&gt;
+      &lt;li&gt;CDN Js&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Widgets&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Google Font API&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Analisis detallado en &lt;a href=&quot;https://builtwith.com/gersonlazaro.com&quot; target=&quot;_blank&quot;&gt;https://builtwith.com/gersonlazaro.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;extensión-para-el-navegador&quot;&gt;Extensión para el navegador&lt;/h6&gt;
+
+&lt;p&gt;Built With también puede usarse como extensión para el navegador (con soporte para Chrome, Firefox, Edge y Safari). Puedes instalarla desde el siguiente enlace: &lt;a href=&quot;https://builtwith.com/toolbar&quot; target=&quot;_blank&quot;&gt;https://builtwith.com/toolbar&lt;/a&gt;. Esta extensión agrega un botón junto a la barra de direcciones para acceder directamente y de forma comoda al resumen de la página que tienes abierta en el navegador.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;image center&quot;&gt;
+  &lt;img src=&quot;/images/2017/02/built-with-chrome.jpg&quot; /&gt;
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;enlaces&quot;&gt;Enlaces:&lt;/h6&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://builtwith.com/&quot; target=&quot;_blank&quot;&gt;Built With&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://builtwith.com/toolbar&quot; target=&quot;_blank&quot;&gt;Built With - Extensión para el navegador&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><summary type="html">¿Alguna vez te has preguntado que tecnologías están detrás de un sitio web en específico? ¿Con cual lenguaje se construyó Facebook, que tecnologías usan en Google, que herramientas internas maneja twitter? Pues justamente para eso existe Built With.
+
+  
+
+Simplemente entra a Built With e introduce en el buscador el sitio web del cual quieres conocer sus tecnologías. El analisis es muy detallado, cubriendo diferentes categorías y herramientas. Por ejemplo, al buscar gersonlazaro.com, el resumen es el siguiente:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.gersonlazaro.com/images/2017/02/built-with-cover.jpg" /></entry><entry><title type="html">Facebook Hacker Cup 2017: ¡Mide tus habilidades en programación!</title><link href="https://www.gersonlazaro.com/facebook-hacker-cup-2017/" rel="alternate" type="text/html" title="Facebook Hacker Cup 2017: ¡Mide tus habilidades en programación!" /><published>2017-01-04T00:00:00-05:00</published><updated>2017-01-04T00:00:00-05:00</updated><id>https://www.gersonlazaro.com/facebook-hacker-cup-2017</id><content type="html" xml:base="https://www.gersonlazaro.com/facebook-hacker-cup-2017/">&lt;h6 id=&quot;que-es-hacker-cup&quot;&gt;¿Que es Hacker Cup?&lt;/h6&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Facebook Hacker Cup es una competencia Internacional de Programación, abierta a personas de cualquier edad y nacionalidad que se lleva a cabo anualmente desde 2011. La competencia consta de un set de problemas algorítmicos que pueden ser resueltos en cualquier lenguaje de programación y cualquier entorno.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h6 id=&quot;cuandodonde&quot;&gt;¿Cuando?¿Donde?&lt;/h6&gt;
+
+&lt;p&gt;Esta es una competencia progresiva, con diferentes rounds, abierta a todos aquellos que sepan programar. Los primeros rounds se realizan de forma virtual, necesitando solo un computador e Internet para participar. En cada round, un número determinado de participantes clasifica al siguiente, hasta llegar al round final que se realiza de forma presencial en las oficinas de Facebook.&lt;/p&gt;
+
+&lt;p&gt;Los rounds y sus fechas son:
+(Todas las horas y fechas a continuación están indicadas en hora Colombiana. Si se encuentra en una zona horaria diferente, haga clic en la hora indicada para ver la correspondiente a su zona horaria. )&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Round de clasificación&lt;/strong&gt;: Etapa preliminar. Cualquier persona puede participar. Se llevará a cabo entre el &lt;a href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=2017+Facebook+Hacker+Cup+Online+Qualification+Round&amp;amp;iso=20170106T16&amp;amp;p1=1240&quot; target=&quot;_blank&quot;&gt;6 de enero a las 7:00PM&lt;/a&gt; y el 9 de enero a las 7:00PM (72 horas de competencia). Se presenta un set de varios problemas y los competidores que resuelvan al menos un problema correctamente, avanzan al round 1.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Round 1&lt;/strong&gt;: 24 horas de competencia, entre el &lt;a href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=2017+Facebook+Hacker+Cup+Online+Round+1&amp;amp;iso=20170114T10&amp;amp;p1=1240&quot; target=&quot;_blank&quot;&gt;14 de Enero a la 1:00PM&lt;/a&gt; y el 15 de enero a la 1:00PM. Se presenta un set de varios problemas que en total sumarán 100 puntos. Aquellos que acumulen &lt;del&gt;30&lt;/del&gt; ACTUALIZACIÓN: 35 o mas puntos clasifican al round 2 (Las reglas fueron actualizadas recientemente incrementando a 35 el límite).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Round 2&lt;/strong&gt;: 3 horas de competencia, el &lt;a href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=2017+Facebook+Hacker+Cup+Online+Round+2&amp;amp;iso=20170121T10&amp;amp;p1=1240&amp;amp;ah=3&quot; target=&quot;_blank&quot;&gt;21 de enero entre la 1:00PM y las 4:00PM&lt;/a&gt;. Los participantes que ocupen los primeros 500 lugares recibiran una camiseta del evento, enviada hasta su casa, pero solo los primeros 200 obtendrán un cupo para el Round 3.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Round 3&lt;/strong&gt;: 3 horas de competencia, el &lt;a href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=2017+Facebook+Hacker+Cup+Online+Round+3&amp;amp;iso=20170128T10&amp;amp;p1=1240&amp;amp;ah=3&quot; target=&quot;_blank&quot;&gt;28 de enero entre la 1:00PM y las 4:00PM&lt;/a&gt;. Los participantes que ocupen los primeros 25 lugares avanzarán a la gran final.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Gran final&lt;/strong&gt;: Esta fase se realiza de forma presencial en alguna de las sucursales de Facebook en el mundo. El sitio y la fecha este año aún no han sido anunciados, aunque se espera que sea en Abril o Mayo.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;premios&quot;&gt;Premios&lt;/h6&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1° Puesto: $10,000 USD&lt;/li&gt;
+  &lt;li&gt;2° Puesto: $2,000 USD&lt;/li&gt;
+  &lt;li&gt;3° Puesto: $1,000 USD&lt;/li&gt;
+  &lt;li&gt;4°-25° Puesto: $100 USD&lt;/li&gt;
+  &lt;li&gt;1° - 500° Puesto: Camiseta de Facebook HackerCup.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;registro&quot;&gt;Registro&lt;/h6&gt;
+
+&lt;p&gt;Puedes registrarte gratuitamente en: &lt;a href=&quot;https://www.facebook.com/hackercup/register/&quot; target=&quot;_blank&quot;&gt;Facebook Hacker Cup&lt;/a&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;instrucciones-y-ejemplos&quot;&gt;Instrucciones y ejemplos&lt;/h6&gt;
+
+&lt;p&gt;Para ver instrucciones y ejemplos, puedes dirigirte al sitio oficial de &lt;a href=&quot;https://www.facebook.com/hackercup/&quot; target=&quot;_blank&quot;&gt;Hacker Cup&lt;/a&gt;. Allí encontrarás todos los enunciados de los años anteriores, e incluso algunas soluciones propuestas. Del mismo modo, puedes revisar las reglas completas en &lt;a href=&quot;https://www.facebook.com/hackercup/terms/&quot; target=&quot;_blank&quot;&gt;https://www.facebook.com/hackercup/terms/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;¿Aceptan el reto?&lt;/p&gt;</content><summary type="html">¿Que es Hacker Cup?
+
+  Facebook Hacker Cup es una competencia Internacional de Programación, abierta a personas de cualquier edad y nacionalidad que se lleva a cabo anualmente desde 2011. La competencia consta de un set de problemas algorítmicos que pueden ser resueltos en cualquier lenguaje de programación y cualquier entorno.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.gersonlazaro.com/images/2017/01/hacker.png" /></entry><entry><title type="html">Certificados SSL completamente gratuitos</title><link href="https://www.gersonlazaro.com/certificados-ssl-completamente-gratuitos/" rel="alternate" type="text/html" title="Certificados SSL completamente gratuitos" /><published>2016-12-28T00:00:00-05:00</published><updated>2016-12-28T00:00:00-05:00</updated><id>https://www.gersonlazaro.com/certificados-ssl-completamente-gratuitos</id><content type="html" xml:base="https://www.gersonlazaro.com/certificados-ssl-completamente-gratuitos/">&lt;h6 id=&quot;qué-es-un-certificado-ssl&quot;&gt;¿Qué es un certificado SSL?&lt;/h6&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Un certificado SSL sirve para brindar seguridad al visitante de su página web, una manera de decirles a sus clientes que el sitio es auténtico, real y confiable para ingresar datos personales. (Tomado de &lt;a href=&quot;https://www.certsuperior.com/QueesunCertificadoSSL.aspx&quot; target=&quot;_blank&quot;&gt;Certsuperior&lt;/a&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;En otras palabras, un certificado SSL cumple una función similar a la que un documento de identidad (cédula de ciudadania o similar) cumple en las personas. A través de mi cédula de ciudadanía, la república de Colombia certifica que yo soy quien digo ser. A través de un certificado SSL, una autoridad competente certifica que el sitio es auténtico y que se puede confiar en el.&lt;/p&gt;
+
+&lt;p&gt;Ahora bien, ¿quien se encarga de certificar esto? Bueno, de hecho cualquiera puede hacerlo, tu puedes hacer tu propio certificado SSL y probarlo en tu localhost.  Sin embargo, estos certificados no serán aprobados por los navegadores y si lo colocas en un sitio en producción, seguramente tendrás un horrible aviso de seguridad cuando entres al sitio (así como una cédula expedida por mi mismo no será reconocida por la policía de mi país y tendré problemas legales). Para ellos existen entidades reconocidas que expiden sus certificados y los ofrecen generalmente bajo algún precio comercial por un tiempo definido.&lt;/p&gt;
+
+&lt;h6 id=&quot;como-obtener-un-certificado-ssl-gratuito&quot;&gt;¿Como obtener un certificado SSL gratuito?&lt;/h6&gt;
+
+&lt;p&gt;Patrocinada por los mas grandes de la industria tecnológica existe una Autoridad Certificadora que otorga certificados SSL completamente gratuitos por 90 días: &lt;a href=&quot;https://letsencrypt.org/&quot; target=&quot;_blank&quot;&gt;Let’s Encrypt&lt;/a&gt;. IMPORTANTE: Estos 90 dias no son un periodo de prueba o trial como ofrecen otras certificadoras, simplemente es el tiempo de vida del certificado, el cual puede renovarse al cumplir este tiempo para recibir 90 días gratuitos mas, y así indefinidamente. El proceso de renovación es muy simple, e incluso puede automatizarse para que no tengas que preocuparte por ello.&lt;/p&gt;
+
+&lt;p&gt;Entre los patrocinadores de Let’s encrypt se encuentran Google Chrome, Linux, Facebook, Cisco, Shopify, Mozilla y HP Enterprise. Un respaldo de marcas mayores.&lt;/p&gt;
+
+&lt;p&gt;Para obtener un certificado de Let’s Encrypt debes utilizar un cliente que utilice el protocolo ACME. Existen una multitud de clientes para diferentes sistemas operativos que puedes ver &lt;a href=&quot;https://letsencrypt.org/docs/client-options/&quot; target=&quot;_blank&quot;&gt;aquí&lt;/a&gt;. Se recomienda usar el cliente recomendado por la certificadora: &lt;a href=&quot;https://certbot.eff.org/&quot; target=&quot;_blank&quot;&gt;CertBot&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Hacer un tutorial en este punto sería algo complicado pues depende de tu sistema operativo y del software que utilices como servidor de aplicaciones web. Sin embargo, Certbot ha hecho un excelente tutorial para cada plataforma, al cual puedes acceder simplemente seleccionando tu servidor y sistema operativo en el sitio web oficial.
+![Certbot let’s Encrypt]
+&lt;span class=&quot;image center&quot;&gt;
+  &lt;img src=&quot;/images/2016/12/certbot-lets-encrypt-ssl-gratis.png&quot; /&gt;
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;¿Que esperan para usarlo?&lt;/p&gt;
+
+&lt;p&gt;Enlaces:
+&lt;a href=&quot;https://letsencrypt.org/docs/client-options/&quot; target=&quot;_blank&quot;&gt;Let’s Encrypt&lt;/a&gt;
+&lt;a href=&quot;https://certbot.eff.org/&quot; target=&quot;_blank&quot;&gt;CertBot&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Nota final: Si eres estudiante, también puedes obtener un certificado SSL gratuito por un año entre otro montón de herramientas gracias a &lt;a href=&quot;https://gersonlazaro.com/las-mejores-herramientas-para-desarrolladores-gratis-para-estudiantes/&quot;&gt;Github para estudiantes&lt;/a&gt;.&lt;/p&gt;</content><summary type="html">¿Qué es un certificado SSL?
+
+  Un certificado SSL sirve para brindar seguridad al visitante de su página web, una manera de decirles a sus clientes que el sitio es auténtico, real y confiable para ingresar datos personales. (Tomado de Certsuperior)</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.gersonlazaro.com/images/2016/12/certificado-ssl-gratuito.jpg" /></entry><entry><title type="html">Botones 100% responsive para compartir en redes sociales</title><link href="https://www.gersonlazaro.com/botones-100-responsive-para-compartir-en-redes-sociales/" rel="alternate" type="text/html" title="Botones 100% responsive para compartir en redes sociales" /><published>2016-11-18T00:00:00-05:00</published><updated>2016-11-18T00:00:00-05:00</updated><id>https://www.gersonlazaro.com/botones-100-responsive-para-compartir-en-redes-sociales</id><content type="html" xml:base="https://www.gersonlazaro.com/botones-100-responsive-para-compartir-en-redes-sociales/">&lt;p&gt;El contenido hoy en día, lo queramos o no, se mueve a través de las redes sociales. Si tienes un sitio web, blog, aplicación o cualquier otro tipo de contenido en la web, es fundamental que ofrezcas a tu público opciones para compartirlo directamente en sus redes, o bien, para seguirte en ellas.&lt;/p&gt;
+
+&lt;p&gt;La mayoría de las redes sociales (me atrevería a decir que todas) ofrecen botones y utilidades para compartir tus contenidos directamente desde tu sitio. Sin embargo, buscar red por red, y hacer que los diseños de los botones encajen entre ellos puede ser algo engorroso.&lt;/p&gt;
+
+&lt;p&gt;Para evitar estos problemas, existen múltiples herramientas que ofrecen variedad de botones sociales listos para usar. En esta oportunidad hablo de “Ridiculously Responsive Social Sharing Buttons”, una pequeñisima utilidad de software libre completamente gratuita, que te permite tener los botones sociales directamente en tu sitio web, con un diseño que se adapta a cualquier tamaño de pantalla. De hecho, los botones sociales que aparecen al inicio de este post, son creados con esta utilidad (redimensiona el navegador para ver como se adaptan al tamaño).&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;image center&quot;&gt;
+  &lt;img src=&quot;/images/2016/11/rrssb-preview.png&quot; /&gt;
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Cuenta con botones predefinidos para las principales redes sociales y aplicaciones, entre las que se incluyen facebook, twitter, youtube, instagram, Linkedin, Google Plus  &lt;del&gt;¿Google Plus todavía existe?&lt;/del&gt;, entre otras.&lt;/p&gt;
+
+&lt;h5 id=&quot;instalación&quot;&gt;Instalación&lt;/h5&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Descarga la última versión de la librería &lt;a href=&quot;https://github.com/kni-labs/rrssb/releases&quot; target=&quot;_blank&quot;&gt;aqui&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Importa el archivo css: 
+&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;css/rrssb.css&quot; /&amp;gt;&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Incluye Jquery en tu sitio: 
+&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js&quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;/code&gt; antes de cerrar el &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;/body&amp;gt;&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Incluye el archivo javascript de la librería:
+&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;script src=&quot;js/rrssb.min.js&quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;/code&gt; justo despues de jquery.&lt;/li&gt;
+  &lt;li&gt;Elige los botones a importar, e incluyelos. &lt;a href=&quot;https://github.com/kni-labs/rrssb/blob/master/index.html&quot; tagret=&quot;_blank&quot;&gt;Aquí&lt;/a&gt; puedes ver los diferentes botones, copiar y pegar el código de los botones que elijas, adaptándolos a tu gusto (Cambia el texto y los links que serán compartidos).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Aquí puedes ver un &lt;a href=&quot;https://www.rrssb.ml/&quot; target=&quot;_blank&quot;&gt;demo&lt;/a&gt; de su funcionamiento. ¿Que esperas para usarlo?&lt;/p&gt;</content><summary type="html">El contenido hoy en día, lo queramos o no, se mueve a través de las redes sociales. Si tienes un sitio web, blog, aplicación o cualquier otro tipo de contenido en la web, es fundamental que ofrezcas a tu público opciones para compartirlo directamente en sus redes, o bien, para seguirte en ellas.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.gersonlazaro.com/images/2016/11/Botones-redes-sociales.png" /></entry><entry><title type="html">DigitalOcean y Github presentan Hacktoberfest 2016</title><link href="https://www.gersonlazaro.com/digitalocean-y-github-presentan-hacktoberfest-2016/" rel="alternate" type="text/html" title="DigitalOcean y Github presentan Hacktoberfest 2016" /><published>2016-09-29T00:00:00-05:00</published><updated>2016-09-29T00:00:00-05:00</updated><id>https://www.gersonlazaro.com/digitalocean-y-github-presentan-hacktoberfest-2016</id><content type="html" xml:base="https://www.gersonlazaro.com/digitalocean-y-github-presentan-hacktoberfest-2016/">&lt;blockquote&gt;
+  &lt;p&gt;Apoya y celebra el software libre. Gana una camiseta edición limitada.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Durante todo el mes de Octubre, vuelve el festival anual online con el que DigitalOcean y Github incentivan la participación y colaboración en torno al software libre.&lt;/p&gt;
+
+&lt;h6 id=&quot;qué-es-el-software-libre&quot;&gt;¿Qué es el software libre?&lt;/h6&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;«Software libre» es el software que respeta la libertad de los usuarios y la comunidad. A grandes rasgos, significa que los usuarios tienen la libertad de ejecutar, copiar, distribuir, estudiar, modificar y mejorar el software.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;Definición tomada de &lt;a href=&quot;https://www.gnu.org/philosophy/free-sw.es.html&quot; target=&quot;_blank&quot;&gt;GNU&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;hacktoberfest&quot;&gt;Hacktoberfest&lt;/h6&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://hacktoberfest.digitalocean.com/&quot; target=&quot;_blank&quot;&gt;Hacktoberfest&lt;/a&gt; es un festival online, que se realiza en Octubre de cada año. Durante este festival, las empresas organizadoras (Github y DigitalOcean) proponen un reto sencillo de colaboración en Software Libre, y se encargan de regalar camisetas a todo aquel que lo realice. Durante este año, el reto será el mismo del año anterior: &lt;strong&gt;Todo aquel que realice 4 colaboraciones en proyectos libres alojados en Github, recibirá una camiseta a la puerta de su casa.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Con esto, se busca promover la participación en estos proyectos, visibilizarlos, y crear comunidad en torno a ellos. Es una excelente oportunidad para conocer mas sobre el software libre, e involucrarse con el.&lt;/p&gt;
+
+&lt;h6 id=&quot;cómo-participar&quot;&gt;¿Cómo participar?&lt;/h6&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Registrate en &lt;a href=&quot;https://hacktoberfest.digitalocean.com/sign_up/register&quot; target=&quot;_blank&quot;&gt;hacktoberfest.digitalocean.com&lt;/a&gt; con tu cuenta de Github (Si no tienes cuenta en Github, puedes crear una gratis).&lt;/li&gt;
+  &lt;li&gt;Realiza 4 Pull Requests entre el 1 y el 31 de Octubre.&lt;/li&gt;
+  &lt;li&gt;Espera la camiseta (puede tardar algunos meses según el pais, pero llega a todos los rincones del planeta).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;en-que-proyectos-colaborar&quot;&gt;¿En que proyectos colaborar?&lt;/h6&gt;
+&lt;p&gt;Los organizadores han definido una lista de proyectos libres recomendados, que es accesible en &lt;a href=&quot;https://hacktoberfest.digitalocean.com/#featured-projects&quot; target=&quot;_blank&quot;&gt;este sitio&lt;/a&gt;. Sin embargo, es solo una recomendación, puedes elegir los proyectos que quieras mientras estén alojados en Github y sean software libre. Las contribuciones no necesariamente deben ser de código: muchos proyectos libres necesitan ayuda con su documentación, o en traducciones, entre otras cosas. Hay cientos de oportunidades.&lt;/p&gt;
+
+&lt;p&gt;Si quieres mirar otros proyectos, puedes buscar en Github la etiqueta &lt;a href=&quot;https://github.com/search?l=&amp;amp;q=state%3Aopen+label%3Ahacktoberfest&amp;amp;ref=advsearch&amp;amp;type=Issues&amp;amp;utf8=%E2%9C%93&quot; target=&quot;_blank&quot;&gt;#hacktoberfest&lt;/a&gt; donde cientos de desarrolladores han marcado sus proyectos para indicar que reciben contribuciones de este festival Online. Del mismo modo, si tienes un proyecto libre y quieres conseguir colaboradores, añade issues con la etiqueta #Hacktoberfest para que te encuentren con mayor facilidad.&lt;/p&gt;
+
+&lt;h6 id=&quot;recursos&quot;&gt;Recursos&lt;/h6&gt;
+
+&lt;p&gt;Si eres nuevo en esto, Digital Ocean ha colocado a tu disposición una serie de recursos para hacer mas fácil la participación, y pueden encontrarse en su sitio en la sección &lt;a href=&quot;https://hacktoberfest.digitalocean.com/#resources&quot; target=&quot;_blank&quot;&gt;recursos&lt;/a&gt;.&lt;/p&gt;</content><summary type="html">Apoya y celebra el software libre. Gana una camiseta edición limitada.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.gersonlazaro.com/images/2016/09/1500x500.jpg" /></entry><entry><title type="html">Covalent: Tema gratuito para Ghost</title><link href="https://www.gersonlazaro.com/covalent-tema-gratuito-para-ghost/" rel="alternate" type="text/html" title="Covalent: Tema gratuito para Ghost" /><published>2016-07-21T00:00:00-05:00</published><updated>2016-07-21T00:00:00-05:00</updated><id>https://www.gersonlazaro.com/covalent-tema-gratuito-para-ghost</id><content type="html" xml:base="https://www.gersonlazaro.com/covalent-tema-gratuito-para-ghost/">&lt;blockquote&gt;
+  &lt;p&gt;Éste blog ya no utiliza el tema Covalent, este post se encuentra desactualizado. El tema ya no es mantenido, pero puedes forkearlo y adaptarlo a nuevas versiones de Ghost.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Desde hoy este blog cuenta con un nuevo diseño dando relevancia a las imágenes de portada que acompañan cada post.&lt;/p&gt;
+
+&lt;p&gt;Para quienes no lo saben, este sitio utiliza la tecnología &lt;a href=&quot;http://ghost.org/download/&quot;&gt;Ghost&lt;/a&gt; y hasta el momento utilizaba como interfaz gráfica una ligera variación de Casper, el tema por defecto. Después de unos días de rediseño, hoy estrena el diseño Covalent, basado en Casper pero con notables modificaciones dando prioridad y relevancia a las imágenes y los títulos de cada entrada.&lt;/p&gt;
+
+&lt;p&gt;Quienes quieran usar &lt;a href=&quot;https://github.com/GersonLazaro/covalent&quot;&gt;Covalent&lt;/a&gt;, bien pueden hacerlo: Lo he publicado en &lt;a href=&quot;https://github.com/GersonLazaro/covalent&quot;&gt;Github&lt;/a&gt; bajo licencia MIT. Así que pueden utilizarlo, adaptarlo a sus necesidades e incluso hacerle mejoras :)!&lt;/p&gt;
+
+&lt;p&gt;En vez de publicar una descripción de este nuevo diseño, los invito a recorrerlo. Bien pueden ver el &lt;a href=&quot;http://www.gersonlazaro.com&quot;&gt;inicio&lt;/a&gt; completamente renovado, la sección de &lt;a href=&quot;https://gersonlazaro.com/author/gersonlazaro/&quot;&gt;autor&lt;/a&gt; o las páginas de &lt;a href=&quot;https://gersonlazaro.com/tag/programacion/&quot;&gt;tags&lt;/a&gt; en cualquier dispositivo desktop o móvil.&lt;/p&gt;
+
+&lt;h6 id=&quot;instalación&quot;&gt;Instalación&lt;/h6&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Descomprimir o clonar &lt;a href=&quot;https://github.com/GersonLazaro/covalent&quot;&gt;covalent&lt;/a&gt; en la carpeta content/themes de tu instalación de Ghost.&lt;/li&gt;
+  &lt;li&gt;En el archivo &lt;code class=&quot;highlighter-rouge&quot;&gt;post.hbs&lt;/code&gt; es necesario editar la linea 164 reemplazando &lt;code class=&quot;highlighter-rouge&quot;&gt;YOUR_USERNAME&lt;/code&gt; por tu nombre de usuario en disqus (esto es requerido para insertar comentarios en las publicaciones). Si no tienes cuenta en disqus puedes crear una gratuita &lt;a href=&quot;https://disqus.com/&quot;&gt;aquí&lt;/a&gt;. Del mismo modo, en este archivo los dos botones de twitter añaden al final “via @GersonLazaroC, puedes reemplazarlo por tu cuenta de twitter).&lt;/li&gt;
+  &lt;li&gt;Reinicia tu servicio de ghost.&lt;/li&gt;
+  &lt;li&gt;En el dashboard de administrador de Ghost sección “settings” abre “general” y en la selección “theme” elige covalent.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;compatibilidad&quot;&gt;Compatibilidad&lt;/h6&gt;
+
+&lt;p&gt;Este tema funciona correctamente desde la versión 0.8.0 de Ghost en adelante. Es posible que funcione correctamente en versiones anteriores, aunque no ha sido verificado (si usted lo verifica, ¡Hagamelo saber!).&lt;/p&gt;
+
+&lt;p&gt;Espero que sea de su agrado, y aquellos que tengan su blog en Ghost encuentren en el una alternativa al diseño tradicional. ¡Hasta la próxima!&lt;/p&gt;</content><summary type="html">Éste blog ya no utiliza el tema Covalent, este post se encuentra desactualizado. El tema ya no es mantenido, pero puedes forkearlo y adaptarlo a nuevas versiones de Ghost.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.gersonlazaro.com/images/2016/07/tema-covalent-ghost.jpg" /></entry><entry><title type="html">Guía de C++ para maratonistas Java</title><link href="https://www.gersonlazaro.com/guia-de-c-para-maratonistas-java-2/" rel="alternate" type="text/html" title="Guía de C++ para maratonistas Java" /><published>2016-07-16T00:00:00-05:00</published><updated>2016-07-16T00:00:00-05:00</updated><id>https://www.gersonlazaro.com/guia-de-c-para-maratonistas-java-2</id><content type="html" xml:base="https://www.gersonlazaro.com/guia-de-c-para-maratonistas-java-2/">&lt;p&gt;A continuación comparto un material de estudio en el cual vengo trabajando desde hace algún tiempo: Una guía de C++ para maratonistas que utilizan Java.&lt;/p&gt;
+
+&lt;h6 id=&quot;que-contiene-y-que-no-contiene-esta-guía&quot;&gt;Que contiene y que no contiene esta guía&lt;/h6&gt;
+&lt;p&gt;Quiero empezar explicando que este NO es un libro para aprender a programar C++, y que está pensado para personas que participan en competencias de programación de tipo ICPC, Codejam o Hackercup utilizando Java, queriendo realizar la transición a C++. Aquí se exponen las principales estructuras que se utilizan en una competencia, a forma comparativa: Como se realizan las cosas en java, y cual es su equivalente en C++. Además se muestran algunos tips que en lo personal me han funcionado y han sido de utilidad durante las competencias.&lt;/p&gt;
+
+&lt;p&gt;Por lo tanto, muchas cosas del lenguaje quedarán por fuera: No hablo del enfoque Orientado a Objetos ni de ningún otro paradigma, mucho menos de interfaces gráficas de usuario. Si hablo de como leer datos y escribirlos en la entrada estándar, como usar Pilas, colas, mapas, sets, vectores…, como agilizar el trabajo en una competencia, en que se asemeja a java y en que se diferencia.&lt;/p&gt;
+
+&lt;p&gt;Hay además poca teoría y mucha comparación: Como funciona tal elemento en java, y cual es su equivalente y como funciona en C++.&lt;/p&gt;
+
+&lt;p&gt;Nada de lo dicho en la guía es un punto definitivo. Ahí expreso mis opiniones e ideas, pero el debate está abierto ante cualquier desacuerdo. Del mismo modo, cualquier error detectado, agradecería que me lo hicieran saber en los comentarios o en mi &lt;a href=&quot;mailto:gersonlazaro@gersonlazaro.com&quot; target=&quot;_blank&quot;&gt;email&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Sin mas por decir, aquí dejo el enlace de descarga:&lt;/p&gt;
+
+&lt;h6 id=&quot;-descargar-guia-de-c-para-maratonistas-java-&quot;&gt;&lt;a href=&quot;https://drive.google.com/file/d/0B-2j0cHMAr2TUVpTOWVsVnVHYkk/view&quot; target=&quot;_blank&quot;&gt; Descargar guia de C++ para maratonistas Java &lt;/a&gt;&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</content><summary type="html">A continuación comparto un material de estudio en el cual vengo trabajando desde hace algún tiempo: Una guía de C++ para maratonistas que utilizan Java.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.gersonlazaro.com/images/2016/07/C---java.png" /></entry></feed>

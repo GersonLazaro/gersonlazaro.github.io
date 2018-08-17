@@ -1,10 +1,9 @@
 ---
 layout: post
-cover: 'content/images/2015/09/github_educacion_4.jpg'
-title: 'Guía de salón de clase con Github: Configurando los repositorios (III)'
-date:   2015-09-29 06:08:00
-categories: tech web
-navigation: True
+title:  "Guía de salón de clase con Github: Configurando los repositorios (III)"
+date:   2015-09-29 04:00:00
+description: "Tercera parte de la entrega sobre Github y su poder en el aula de clases. En esta ocasión nos centramos en la configuración."
+image: "/images/2015/09/github_educacion_4.jpg"
 ---
 
 Tienes dos opciones para estructurar los repositorios de tareas:

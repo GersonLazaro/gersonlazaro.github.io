@@ -1,10 +1,9 @@
 ---
 layout: post
-cover: 'content/images/2016/06/taiga-cover.jpg'
-title: 'Taiga.io: Potente gestor de proyectos ágiles'
-date:   2016-06-28 06:12:00
-categories: tech web programacion
-navigation: True
+title:  "Taiga.io: Potente gestor de proyectos ágiles"
+date:   2016-06-28
+description: "Gestiona tus proyectos ágiles con una herramienta verdaderamente ágil: Taiga.io."
+image: "/images/2016/06/taiga-cover.jpg"
 ---
 
 Existen cientos de gestores de proyectos de todo tipo en el mercado, y sin embargo, entre los que conozco, mi favorito es <a href="https://taiga.io/" target="_blank">Taiga.io</a>. Esta plataforma se autodefine como:
@@ -15,10 +14,15 @@ Con Taiga se pueden gestionar proyectos usando dos de las mas conocidas metodolo
 
 
 ###### Scrum con Taiga.io
-![Scrum con taiga.io](/content/images/2016/06/scrum-taiga.png)
+<span class="image center">
+  <img src="/images/2016/06/scrum-taiga.png">
+</span>
 
 ###### Kanban con Taiga.io
-![Kanban con Taiga.io](/content/images/2016/06/kanban-taiga.png)
+<span class="image center">
+  <img src="/images/2016/06/kanban-taiga.png">
+</span>
+
 
 No es necesario realizar un tutorial de la herramienta, pues es realmente fácil de usar. Además puede integrarse con herramientas externas como Github y Slack para potenciar sus capacidades.
 

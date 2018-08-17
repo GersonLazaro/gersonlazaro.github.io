@@ -1,10 +1,9 @@
 ---
 layout: post
-cover: 'content/images/2015/10/hacktoberfest.png'
-title: '#Hacktoberfest: Los geeks tenemos festival...y camisetas gratis'
-date:   2015-10-04 06:12:00
-categories: tech web programacion
-navigation: True
+title:  "#Hacktoberfest: Los geeks tenemos festival...y camisetas gratis"
+date:   2015-10-04
+description: "El festival online del código libre alcanza su edición 2015 de la mano de Github y Digital Ocean."
+image: "/images/2015/10/hacktoberfest.png"
 ---
 Llega Octubre, y con el llega la segunda edición del #Hacktoberfest. 
 
@@ -32,7 +31,9 @@ Sin embargo, esto es solo una sugerencia, puedes elegir cualquier otro proyecto 
 
 Trabajar en proyectos de código libre puede darte reconocimiento y credibilidad; incluso partiendo de proyectos libres puedes crear iniciativas con las cuales generes dinero; pero en esta ocasión, la colaboración te hará acreedor de una camiseta, como la que se muestra en la siguiente imagen:
 
-![Hacktoberfest T-shirt](/content/images/2015/10/hacktoberfest-tshirt.png)
+<span class="image center">
+  <img src="/images/2015/10/hacktoberfest-tshirt.png">
+</span>
 
 ¿Que esperas para participar? 
 

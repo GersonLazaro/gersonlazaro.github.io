@@ -1,10 +1,9 @@
 ---
 layout: post
-cover: 'content/images/2016/07/C---java.png'
-title: 'Guía de C++ para maratonistas Java'
-date:   2016-07-16 06:12:00
-categories: programacion
-navigation: True
+title:  "Guía de C++ para maratonistas Java"
+date:   2016-07-16
+description: "Si sabes programar en Java, aprender C++ será muy facil con esta guía."
+image: "/images/2016/07/C---java.png"
 ---
 A continuación comparto un material de estudio en el cual vengo trabajando desde hace algún tiempo: Una guía de C++ para maratonistas que utilizan Java.
 

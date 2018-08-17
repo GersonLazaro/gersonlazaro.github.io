@@ -1,10 +1,9 @@
 ---
 layout: post
-cover: 'content/images/2016/12/certificado-ssl-gratuito.jpg'
-title: 'Certificados SSL completamente gratuitos'
-date:   2016-12-28 06:12:00
-categories: tech web seguridad
-navigation: True
+title:  "Certificados SSL completamente gratuitos"
+date:   2016-12-28
+description: "Los certificados SSL costosos o dificiles de configurar son cosa del pasado. En la actualidad, existe Let's Encrypt."
+image: "/images/2016/12/certificado-ssl-gratuito.jpg"
 ---
 
 ###### ¿Qué es un certificado SSL?
@@ -23,7 +22,10 @@ Entre los patrocinadores de Let's encrypt se encuentran Google Chrome, Linux, Fa
 Para obtener un certificado de Let's Encrypt debes utilizar un cliente que utilice el protocolo ACME. Existen una multitud de clientes para diferentes sistemas operativos que puedes ver <a href="https://letsencrypt.org/docs/client-options/" target="_blank">aquí</a>. Se recomienda usar el cliente recomendado por la certificadora: <a href="https://certbot.eff.org/" target="_blank">CertBot</a>.
 
 Hacer un tutorial en este punto sería algo complicado pues depende de tu sistema operativo y del software que utilices como servidor de aplicaciones web. Sin embargo, Certbot ha hecho un excelente tutorial para cada plataforma, al cual puedes acceder simplemente seleccionando tu servidor y sistema operativo en el sitio web oficial.
-![Certbot let's Encrypt](/content/images/2016/12/certbot-lets-encrypt-ssl-gratis.png)
+![Certbot let's Encrypt]
+<span class="image center">
+  <img src="/images/2016/12/certbot-lets-encrypt-ssl-gratis.png">
+</span>
 
 
 ¿Que esperan para usarlo?

@@ -1,10 +1,9 @@
 ---
 layout: post
-cover: 'content/images/2015/09/github_educacion_5.jpg'
-title: 'Guía de salón de clase con Github: Forks (IV)'
-date:   2015-09-29 06:09:00
-categories: tech web
-navigation: True
+title:  "Guía de salón de clase con Github: Forks (IV)"
+date:   2015-09-29 05:00:00
+description: "Cuarta parte de la entrega sobre Github y su poder en el aula de clases. En esta ocasión nos centramos en los forks."
+image: "/images/2015/09/github_educacion_5.jpg"
 ---
 
 Los estudiantes completan sus tareas usando forks (nota: esta configuración significa que **los estudiantes podrán ver el trabajo de sus compañeros**):

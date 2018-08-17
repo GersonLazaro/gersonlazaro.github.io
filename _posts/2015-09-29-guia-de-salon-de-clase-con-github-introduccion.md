@@ -1,10 +1,9 @@
 ---
 layout: post
-cover: 'content/images/2015/09/github_educacion_2.jpg'
-title: 'Guía de salón de clase con Github: Introducción (I)'
-date:   2015-09-29 06:06:00
-categories: tech web
-navigation: True
+title:  "Guía de salón de clase con Github: Introducción (I)"
+date:   2015-09-29 02:00:00
+description: "Primera parte de la entrega sobre Github y su poder en el aula de clases. Para empezar, un resumen de lo que podemos lograr."
+image: "/images/2015/09/github_educacion_2.jpg"
 ---
 ### 1. Inscríbete en github
 

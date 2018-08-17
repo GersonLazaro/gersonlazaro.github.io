@@ -1,10 +1,9 @@
 ---
 layout: post
-cover: 'content/images/2015/09/github_educacion_1.png'
-title: 'Potenciando la educación con Github'
-date:   2015-09-29 06:12:00
-categories: tech web
-navigation: True
+title:  "Potenciando la educación con Github"
+date:   2015-09-29 1:00:00
+description: "Resumen de varios post sobre Github y su poder en el aula de clases."
+image: "/images/2015/09/github_educacion_1.png"
 ---
 
 Dado que esta no es una guía sobre como usar github, asumiré que ya conoces esta plataforma y sus ventajas. Pero si no la conoces, no te preocupes, puedes <a href="http://www.genbetadev.com/sistemas-de-control-de-versiones/conociendo-github-el-servicio-donde-alojar-tus-repositorios-git-como-el-nuestro" target="_blank">Iniciar por aquí</a>.

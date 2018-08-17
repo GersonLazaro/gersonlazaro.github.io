@@ -1,12 +1,10 @@
 ---
 layout: post
-cover: 'content/images/2015/06/crear-diapositivas-web.jpg'
-title: ¿Sabes HTML? Dale a tus presentaciones un cambio radical
-date:   2015-01-25 06:06:00
-categories: tech web
-navigation: True
+title:  "¿Sabes HTML? Dale a tus presentaciones un cambio radical"
+date:    2015-01-25
+description: "Las mejores presentaciones y diapositivas, directamente en la web"
+image: /images/2015/06/crear-diapositivas-web.jpg
 ---
-
 Estamos ya en el año 2015 ~~¿En serio? No lo había notado~~.  Hace ya 28 años nació PowerPoint, el popular servicio de presentaciones de Microsoft. Desde aquella época, hemos visto una y otra vez aburridísimas presentaciones con el mismo formato, la misma idea, las mismas animaciones y poco atención de los asistentes al contenido. Si, es cierto, con esmero pueden lograrse resultados realmente sorprendentes, pero sin embargo, hay maneras bastante mas cool de realizar tus presentaciones.
 
 Y no, no me estoy refiriendo a prezi, la idea no es que dejes ciegos y/o mareados a quienes vean tus presentaciones.  

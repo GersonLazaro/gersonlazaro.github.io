@@ -1,11 +1,9 @@
 ---
 layout: post
-cover: 'content/images/2017/03/codejam.jpg'
-title: 'Google Code Jam 2017 ¡Inscripciones abiertas!'
-description: 'Google Code Jam es una de las competencias de programación mas importantes del mundo. ¿Te atreves a participar?'
-date:   2017-03-07 06:12:00
-categories: tech programacion
-navigation: True
+title:  "Google Code Jam 2017 ¡Inscripciones abiertas!"
+date:   2017-03-07
+description: "Google Code Jam es una de las competencias de programación mas importantes del mundo. ¿Te atreves a participar?"
+image: "/images/2017/03/codejam.jpg"
 ---
 
 Por 13 años consecutivos Google ha organizado una de las mas grandes y desafiantes competencias de programación, y seguramente su versión 14 no será la excepción. Regresa de esta forma el Google Code Jam 2017, la competencia de programadores organizada por Google, donde miles de personas en todo el mundo medirán sus capacidades algorítmicas en un tiempo limitado. ¿Qué esperas para inscribirte?

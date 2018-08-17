@@ -1,10 +1,9 @@
 ---
 layout: post
-cover: 'content/images/2015/09/github_educacion_6.jpg'
-title: 'Guía de salón de clase con Github: Sandboxing (V)'
-date:   2015-09-29 06:10:00
-categories: tech web
-navigation: True
+title:  "Guía de salón de clase con Github: Sandboxing (V)"
+date:   2015-09-29 6:00:00
+description: "Quinta parte de la entrega sobre Github y su poder en el aula de clases. En esta ocasión nos centramos en el sandboxing."
+image: "/images/2015/09/github_educacion_6.jpg"
 ---
 
 ### Configuración

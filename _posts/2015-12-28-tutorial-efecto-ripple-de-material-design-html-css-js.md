@@ -1,10 +1,9 @@
 ---
 layout: post
-cover: 'content/images/2015/12/material-buttons.png'
-title: 'TUTORIAL: Efecto Ripple de Material Design [HTML+CSS+JS]'
-date:   2015-12-28 06:12:00
-categories: tech web programacion material
-navigation: True
+title:  "TUTORIAL: Efecto Ripple de Material Design [HTML+CSS+JS]"
+date:   2015-12-28
+description: "Material Design ha traído nuevas ideas y componentes a nuestros diseños. El efecto Ripple es uno de los mas vistosos, y muy facil de lograr."
+image: "/images/2015/12/material-buttons.png"
 ---
 
 Sabemos de sobra las bondades que <a href="https://www.google.com/design/spec/material-design/introduction.html" target="_blank">Material Design</a> trae a nuestras aplicaciones, como sabemos también lo tedioso que puede ser lograrlo en HTML y CSS. Si bien existen varios frameworks de diseño que cubren por completo esta necesidad (como <a href="http://getmdl.io" target="_blank">Material Design Lite</a> y <a href="http://materializecss.com/" target="_blank">Materialize</a>), a veces necesitamos solo un pequeño elemento y no un framework completo. 
@@ -16,7 +15,9 @@ Hace unas horas necesitaba el efecto "Ripple" de Material Design al pulsar un bo
 
 En primer lugar, hay que destacar que en el diseño material tenemos básicamente 3 tipos de botones: 
 
-![Botones con material design](/content/images/2015/12/botones-material.png)
+<span class="image center">
+  <img src="/images/2015/12/botones-material.png">
+</span>
 
 Vamos a crear tres botones y un contenedor con una imagen (tambien a las imágenes podemos agregarle el efecto). En el html cada botón contendrá un DIV con clase ripple-container, que demarca los límites del efecto, y dentro de este div habrá un SPAN con clase ripple -effect encargado de desplegar el efecto como tal. La estructura HTML de los botones sería entonces:
 
@@ -28,7 +29,9 @@ Para que los botones tengan el diseño deseado, vamos a añadir algo de css:
 
 Esto nos genera:
 
-![Botones con estilo material](/content/images/2015/12/botones-material-1.png)
+<span class="image center">
+  <img src="/images/2015/12/botones-material-1.png">
+</span>
 
 Ahora si nos centramos en el efecto. A cada botón (y al bloque con la imagen) le hemos asignado un div interno con clase ripple-container. Este div debe ser transparente, pero ocupar la totalidad del tamaño del botón, lo cual no es muy difícil si lo ubicamos con posición absoluta. Del mismo modo, dentro de el div se encuentra un span con clase ripple-effect, al cual asignaremos una animación con keyframes, pero por defecto no será visible, y solo cuando se haga click sobre el elemento se disparará el evento que activa el span. Primero centrémonos en las propiedades css que harán funcionar el efecto:
 

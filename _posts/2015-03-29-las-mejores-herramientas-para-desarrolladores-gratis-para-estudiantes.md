@@ -1,10 +1,9 @@
 ---
 layout: post
-cover: 'content/images/2015/06/herramientas-gratis-para-developers.jpg'
-title: Las mejores herramientas para desarrolladores, gratis para estudiantes
-date:   2015-03-29 06:06:00
-categories: tech web programacion
-navigation: True
+title:  "Las mejores herramientas para desarrolladores, gratis para estudiantes"
+date:    2015-03-29
+description: "Si eres estudiante estás de suerte. Github te da las mejores herramientas de desarrollo...totalmente gratis."
+image: "/images/2015/06/herramientas-gratis-para-developers.jpg"
 ---
 
 > "No hay sustituto para la experiencia práctica, pero para la mayoría de los estudiantes, las herramientas del mundo real pueden tener un costo prohibitivo. Es por eso que creamos el paquete para estudiantes desarrolladores de GitHub con algunos de nuestros socios y amigos: dar a los estudiantes el acceso gratuito a las mejores herramientas de desarrollo en un solo lugar para que puedan aprender haciendo."

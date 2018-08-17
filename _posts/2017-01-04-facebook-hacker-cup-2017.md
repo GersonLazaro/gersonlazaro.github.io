@@ -1,11 +1,11 @@
 ---
 layout: post
-cover: 'content/images/2017/01/hacker.png'
-title: 'Facebook Hacker Cup 2017: ¡Mide tus habilidades en programación!'
-date:   2017-01-04 06:12:00
-categories: programacion hacker facebook
-navigation: True
+title:  "Facebook Hacker Cup 2017: ¡Mide tus habilidades en programación!"
+date:   2017-01-04
+description: "La competencia anual para programadores de Facebook llega a su versión 2017. ¿Te animas a participar?"
+image: "/images/2017/01/hacker.png"
 ---
+
 
 ###### ¿Que es Hacker Cup?
 > Facebook Hacker Cup es una competencia Internacional de Programación, abierta a personas de cualquier edad y nacionalidad que se lleva a cabo anualmente desde 2011. La competencia consta de un set de problemas algorítmicos que pueden ser resueltos en cualquier lenguaje de programación y cualquier entorno. 

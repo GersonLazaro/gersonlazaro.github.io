@@ -1,11 +1,9 @@
 ---
 layout: post
-cover: 'content/images/2018/01/meltdown-y-spectre.png'
-title: 'Meltdown y Spectre: Bugs en computadores modernos que filtran contraseñas e información sensible'
-description: 'Meltdown y Spectre: Bugs en computadores modernos que podrían filtrar contraseñas e información sensible aprovechando vulnerabilidades existentes en diversos procesadores.'
-date:   2018-01-04 12:12:12
-categories: tech seguridad
-navigation: True
+title:  "Meltdown y Spectre: Bugs en computadores modernos que filtran contraseñas e información sensible"
+date:   2018-01-04
+description: "Meltdown y Spectre: Bugs en computadores modernos que podrían filtrar contraseñas e información sensible aprovechando vulnerabilidades existentes en diversos procesadores."
+image: "/images/2018/01/meltdown-y-spectre.png"
 ---
 
 > Este artículo es una traducción de la información original en inglés publicada <a href="https://meltdownattack.com" target="_blank">aquí</a>. Por tanto, puede contener información técnica. Si no desea profundizar en estos tecnicismos, la recomendación es simple: No entre en pánico, y mantenga su sistema operativo actualizado.
@@ -16,7 +14,7 @@ Meltdown y Spectre trabajan en computadoras personales, dispositivos móviles y 
 
 ### Meltdown
 
-![](/content/images/2018/01/meltdown.png)
+<span class="image left"><img src="{{ "/images/2018/01/meltdown.png" | absolute_url }}" alt="" /></span>
 
 Meltdown rompe el aislamiento fundamental entre las aplicaciones del usuario y el sistema operativo. Este ataque permite que un programa acceda a la memoria y, por lo tanto, también a los datos secretos de otros programas y del sistema operativo.
 
@@ -24,7 +22,8 @@ Si su computadora tiene un procesador vulnerable y ejecuta un sistema operativo 
 
 ### Spectre
 
-![](/content/images/2018/01/spectre.png)
+<span class="image left"><img src="{{ "/images/2018/01/spectre.png" | absolute_url }}" alt="" /></span>
+
 
 Spectre rompe el aislamiento entre diferentes aplicaciones. Esto permite a un atacante engañar a programas sin errores en su diseño, desarrollado con las mejores prácticas, para filtrar sus datos secretos. De hecho, los controles de seguridad de dichas mejores prácticas en realidad aumentan las posibilidades de ataque y pueden hacer que las aplicaciones sean más susceptibles a Spectre.
 
@@ -105,7 +104,5 @@ Spectre fue descubierto y reportado de forma independiente por dos personas:
 Jann Horn (Google Project Zero) y Paul Kocher en colaboración con Daniel Genkin (Universidad de Pensilvania y Universidad de Maryland), Mike Hamburg (Rambus), Moritz Lipp (Universidad Tecnológica de Graz) y Yuval Yarom (Universidad de Adelaida y Data61).
 
 > Artículo técnico sobre Meltdown: <a href="https://meltdownattack.com/meltdown.pdf" target="_blank">Clic aquí</a>
-
 > Artículo técnico sobre Spectre: <a href="https://spectreattack.com/spectre.pdf" target="_blank">Clic aquí</a>
-
 > Los logos de Meltdown y Spectre usados en este artículo fueron diseñados por <a href="https://vividfox.me/" target="_blank">Natascha Eibl</a> y se comparte bajo licencia <a href="http://creativecommons.org/publicdomain/zero/1.0/" target="_blank">Creative Commons Zero</a>.

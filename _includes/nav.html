@@ -1,0 +1,5 @@
+<ul class="links">
+  <li class="{% if page.url == "/" %} active {% endif %}"><a href="{{ "/" | absolute_url }}">Blog</a></li>
+  <li class="{% if page.url contains '/cv/' %} active {% endif %}"><a href="{{ "/cv/" | absolute_url }}">Acerca de</a></li>
+  <li class="{% if page.url contains '/proyectos/' %} active {% endif %}"><a href="{{ "/proyectos/" | absolute_url }}">Proyectos</a></li>
+</ul>

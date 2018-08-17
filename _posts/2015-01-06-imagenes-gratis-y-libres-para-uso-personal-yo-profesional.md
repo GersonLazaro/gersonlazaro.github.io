@@ -1,10 +1,9 @@
 ---
 layout: post
-cover: 'content/images/2015/06/imagenes-gratis.jpg'
-title: Imágenes gratis y libres para uso personal y/o profesional
-date:   2015-01-06 06:06:00
-categories: tech
-navigation: True
+title:  "Imágenes gratis y libres para uso personal y/o profesional"
+date:   2015-01-06
+description: "Colección de sitios para descargar imagenes, libres de derechos de autor, totalmente gratis"
+image: /images/2015/06/imagenes-gratis.jpg
 ---
 
 No voy a escribir mucho en esta ocasión. Simplemente me han preguntado de donde saco las fotos que publico con los escritos y aquí comparto una gran lista de sitios en los cuales puedes encontrar espectaculares imágenes, de muy buena resolución y calidad para usar en tus proyectos personales o profesionales. 

@@ -1,11 +1,12 @@
 ---
 layout: post
-cover: 'content/images/2016/07/tema-covalent-ghost.jpg'
-title: 'Covalent: Tema gratuito para Ghost'
-date:   2016-07-21 06:12:00
-categories: programacion tech web
-navigation: True
+title:  "Covalent: Tema gratuito para Ghost"
+date:   2016-07-21
+description: "Renueva la apariencia de Ghost con este tema gratuito y dale un nuevo estilo a tu blog."
+image: "/images/2016/07/tema-covalent-ghost.jpg"
 ---
+
+> Éste blog ya no utiliza el tema Covalent, este post se encuentra desactualizado. El tema ya no es mantenido, pero puedes forkearlo y adaptarlo a nuevas versiones de Ghost.
 
 Desde hoy este blog cuenta con un nuevo diseño dando relevancia a las imágenes de portada que acompañan cada post. 
 

@@ -1,10 +1,9 @@
 ---
 layout: post
-cover: 'content/images/2016/01/indiahacks-2016.png'
-title: 'IndiaHacks 2016: La reunión [online] de desarrolladores más grande del mundo'
-date:   2016-01-02 06:12:00
-categories: tech web programacion hacker
-navigation: True
+title:  "IndiaHacks 2016: La reunión [online] de desarrolladores más grande del mundo"
+date:   2016-01-02
+description: "Indiahacks by Hackerearth está esperando por ti. ¿Que esperas para registrarte?"
+image: "/images/2016/01/indiahacks-2016.png"
 ---
 
 En el 2016 nos esperan numerosos retos, conferencias, competencias y actividades de todo tipo, tanto online como offline para los aficionados al software.
@@ -47,15 +46,15 @@ Si bien estas competencias tienen como principal objetivo el aprendizaje colabor
 
 En cada una de las competencias, se entregan los siguientes premios:
 
-Puesto 1: Viaje a San Francisco
-Puesto 2: Xbox
-Puesto 3: GoPro Hero
-Puesto 4: Oculus + Leap Motion
-Puesto 5: Smart Watch Pebble
-Puesto 6: Arduino Starter Kit
-Puesto 7 - 10: Rapsberry Pi 2
-Puesto 11 - 20: Vales de regalo
-Puesto 21 - 50: "HackerEarth Goodies"
+* Puesto 1: Viaje a San Francisco
+* Puesto 2: Xbox
+* Puesto 3: GoPro Hero
+* Puesto 4: Oculus + Leap Motion
+* Puesto 5: Smart Watch Pebble
+* Puesto 6: Arduino Starter Kit
+* Puesto 7 - 10: Rapsberry Pi 2
+* Puesto 11 - 20: Vales de regalo
+* Puesto 21 - 50: "HackerEarth Goodies"
 
 SITIO OFICIAL Y REGISTRO: <a href="https://www.hackerearth.com/indiahacks-2016/" target="_blank">IndiaHacks 2016</a>
 
