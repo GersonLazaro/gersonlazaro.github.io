@@ -27,7 +27,7 @@
 <meta name="twitter:description" content="{{ page.description }}"> {% else %}
 <meta name="twitter:description" content="{{ site.description }}"> {% endif %} {% if page.image %}
 <meta name="twitter:image:src" content="{{ site.url }}{{ page.image }}"> {% else %}
-<meta name="twitter:image:src" content="{{ site.url }}/images/bg.jpg"> {% endif %}
+<meta name="twitter:image:src" content="{{ site.url }}/images/social.png"> {% endif %}
 
 <meta content="{{ site.title }}" property="og:site_name"> {% if page.title %}
 <meta content="{{ page.title }}" property="og:title"> {% else %}
@@ -40,6 +40,6 @@
 <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
 <meta content="{{ site.url }}/cv/" property="article:author"> {% endif %} {% if page.image %}
 <meta content="{{ site.url }}{{ page.image }}" property="og:image"> {% else %}
-<meta content="{{ site.url }}/images/bg.jpg"" property="og:image"> {% endif %} {% if page.categories %} {% for category in page.categories limit:1 %}
+<meta content="{{ site.url }}/images/social.png" property="og:image"> {% endif %} {% if page.categories %} {% for category in page.categories limit:1 %}
 <meta content="{{ category }}" property="article:section"> {% endfor %} {% endif %} {% if page.tags %} {% for tag in page.tags %}
 <meta content="{{ tag }}" property="article:tag"> {% endfor %} {% endif %}
