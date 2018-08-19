@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+    <url>
+      <loc>https://gersonlazaro.com/learn-x-if-you-know-y/</loc>
+      
+        <lastmod>2018-01-04T00:00:00-05:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1</priority>
+  </url>
+  <url>
+      <loc>https://gersonlazaro.com/aprende-x-si-sabes-y/</loc>
+      
+        <lastmod>2018-01-04T00:00:00-05:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1</priority>
+  </url>
+</urlset>
